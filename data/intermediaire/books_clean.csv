@@ -1,0 +1,643 @@
+id,title,author,rating_average,movie_release_year,isbn
+1,harry potter and the sorcerer's stone,j.k. rowling,4.89,2001,978-0747532743
+2,to kill a mockingbird,harper lee,4.85,1962,978-0061120084
+3,1984,george orwell,4.8,1984,978-0451524935
+4,the great gatsby,f. scott fitzgerald,4.4,2013,978-0743273565
+5,the hobbit,j.r.r. tolkien,4.75,2012,978-0547928227
+6,pride and prejudice,jane austen,4.65,2005,978-0141439518
+8,the da vinci code,dan brown,4.3,2006,978-0307474278
+9,the hunger games,suzanne collins,4.72,2012,978-0439023481
+10,the lord of the rings,j.r.r. tolkien,4.92,2001,978-0544003415
+12,the chronicles of narnia: the lion, the witch and the wardrobe",c.s. lewis,4.7,2005,978-0064404990
+13,animal farm,george orwell,4.6,1954,978-0451526342
+14,jane eyre,charlotte brontë,4.58,2011,978-0141441146
+15,gone with the wind,margaret mitchell,4.45,1939,978-1451635621
+16,fahrenheit 451,ray bradbury,4.5,1966,978-1451673319
+17,brave new world,aldous huxley,4.35,1998,978-0060850524
+18,charlotte's web,e.b. white,4.8,2006,978-0061124952
+19,the kite runner,khaled hosseini,4.68,2007,978-1594631931
+20,the book thief,markus zusak,4.76,2013,978-0375842207
+21,the little prince,antoine de saint-exupéry,4.95,1974,978-0156012195
+22,the handmaid's tale,margaret atwood,4.12,1990,978-0385490818
+23,jurassic park,michael crichton,4.05,1993,978-0345538987
+24,the fault in our stars,john green,4.18,2014,978-0525478812
+25,the shining,stephen king,4.25,1980,978-0307743657
+26,the hitchhiker's guide to the galaxy,douglas adams,4.22,2005,978-0345391803
+27,wuthering heights,emily brontë,3.88,1939,978-0141439556
+28,little women,louisa may alcott,4.1,2019,978-0147514011
+29,frankenstein,mary shelley,3.85,1931,978-0486282114
+30,alice's adventures in wonderland,lewis carroll,4.05,1951,978-0141439761
+31,the picture of dorian gray,oscar wilde,4.11,1945,978-0141439570
+32,gone girl,gillian flynn,4.1,2014,978-0307588371
+33,the girl with the dragon tattoo,stieg larsson,4.15,2011,978-0307454546
+34,life of pi,yann martel,3.92,2012,978-0156027328
+35,the giver,lois lowry,4.13,2014,978-0544336261
+36,twilight,stephenie meyer,3.6,2008,978-0316015844
+37,of mice and men,john steinbeck,3.89,1992,978-0140177398
+38,the secret garden,frances hodgson burnett,4.15,1993,978-0064401883
+39,moby-dick,herman melville,3.5,1956,978-0142437247
+40,a tale of two cities,charles dickens,3.85,1935,978-0141439600
+41,lord of the flies,william golding,3.69,1963,978-0399501487
+42,a game of thrones,george r.r. martin,4.44,2011,978-0553103540
+43,the godfather,mario puzo,4.37,1972,978-0451205766
+44,divergent,veronica roth,4.15,2014,978-0062024039
+45,a clockwork orange,anthony burgess,3.99,1971,978-0393312836
+46,dracula,bram stoker,4.01,1931,978-0486411095
+47,the maze runner,james dashner,4.04,2014,978-0385737973
+48,the martian,andy weir,4.41,2015,978-0553418026
+49,into the wild,jon krakauer,4.0,2007,978-0385486804
+50,the outsiders,s.e. hinton,4.1,1983,978-0142407332
+51,ready player one,ernest cline,4.23,2018,978-0307887436
+52,the girl on the train,paula hawkins,3.96,2016,978-1594634024
+53,water for elephants,sara gruen,4.1,2011,978-1565125605
+54,memoirs of a geisha,arthur golden,4.14,2005,978-0140288478
+55,fight club,chuck palahniuk,4.19,1999,978-0393039764
+56,american psycho,bret easton ellis,3.8,2000,978-0679735779
+57,the road,cormac mccarthy,3.99,2009,978-0307387899
+58,room,emma donoghue,4.08,2015,978-0316098335
+59,the help,kathryn stockett,4.47,2011,978-0399155345
+60,the lovely bones,alice sebold,3.85,2009,978-0316666343
+61,the old man and the sea,ernest hemingway,4.3,1958,978-0684801223
+64,catch-22,joseph heller,3.98,1970,978-1451626650
+65,great expectations,charles dickens,3.79,1946,978-0141439563
+66,the bell jar,sylvia plath,4.03,1979,978-0060837020
+67,slaughterhouse-five,kurt vonnegut,4.1,1972,978-0385333849
+68,atonement,ian mcewan,3.93,2007,978-0099429791
+69,the color purple,alice walker,4.24,1985,978-0156028356
+70,dune,frank herbert,4.26,2021,978-0441013593
+71,anna karenina,leo tolstoy,4.08,2012,978-0143035008
+75,crime and punishment,fyodor dostoevsky,4.25,2002,978-0140449136
+76,the perks of being a wallflower,stephen chbosky,4.22,2012,978-1451696196
+77,coraline,neil gaiman,4.1,2009,978-0380977789
+78,matilda,roald dahl,4.33,1996,978-0142410370
+79,ender's game,orson scott card,4.31,2013,978-0812550702
+80,where the crawdads sing,delia owens,4.41,2022,978-0735219090
+81,the pillars of the earth,ken follett,4.33,2010,978-0451207142
+84,one flew over the cuckoo's nest,ken kesey,4.2,1975,978-0451163967
+85,the silence of the lambs,thomas harris,4.23,1991,978-0312924584
+86,rebecca,daphne du maurier,4.24,1940,978-0380730407
+87,watership down,richard adams,4.05,1978,978-0743271370
+88,american gods,neil gaiman,4.11,2017,978-0380973651
+89,a tree grows in brooklyn,betty smith,4.25,1945,978-0060736262
+90,the grapes of wrath,john steinbeck,3.98,1940,978-0143039433
+91,lolita,vladimir nabokov,3.88,1962,978-0679723165
+92,romeo and juliet,william shakespeare,3.75,1968,978-0743477116
+93,hamlet,william shakespeare,4.02,1948,978-0743477123
+94,the odyssey,homer,3.77,1997,978-0140268869
+95,don quixote,miguel de cervantes,3.88,1972,978-0060934347
+96,les misérables,victor hugo,4.18,2012,978-0451419439
+97,war and peace,leo tolstoy,4.14,1956,978-1400079988
+98,ulysses,james joyce,3.73,1967,978-0679722762
+99,beloved,toni morrison,3.93,1998,978-1400033416
+100,cloud atlas,david mitchell,4.02,2012,978-0375507250
+101,foundation,isaac asimov,4.18,2021,978-0553293357
+105,the three-body problem,cixin liu,4.08,2023,978-0765377067
+106,norwegian wood,haruki murakami,4.03,2010,978-0307744661
+108,never let me go,kazuo ishiguro,3.83,2010,978-1400078776
+109,the remains of the day,kazuo ishiguro,4.13,1993,978-0679731726
+110,midnight's children,salman rushdie,3.98,2012,978-0812976533
+111,white teeth,zadie smith,3.78,2002,978-0375703867
+113,the goldfinch,donna tartt,3.92,2019,978-0316055437
+114,all the light we cannot see,anthony doerr,4.33,2023,978-1501161933
+115,the nightingale,kristin hannah,4.6,2024,978-0312577223
+116,the seven husbands of evelyn hugo,taylor jenkins reid,4.43,2025,978-1501161933
+117,daisy jones & the six,taylor jenkins reid,4.2,2023,978-1524798628
+118,it ends with us,colleen hoover,4.24,2024,978-1501110368
+119,big little lies,liane moriarty,4.28,2017,978-0399167065
+120,sharp objects,gillian flynn,4.0,2018,978-0307341556
+121,the woman in the window,a.j. finn,3.95,2021,978-0062678416
+122,steve jobs,walter isaacson,4.15,2015,978-1451648539
+124,becoming,michelle obama,4.49,2020,978-1524763138
+131,the immortal life of henrietta lacks,rebecca skloot,4.07,2017,978-1400052189
+132,into thin air,jon krakauer,4.19,1997,978-0385494786
+133,wild,cheryl strayed,4.01,2014,978-0307592736
+134,"eat, pray, love",elizabeth gilbert,3.6,2010,978-0143038412
+135,the glass castle,jeannette walls,4.28,2017,978-0743247542
+136,good omens,terry pratchett & neil gaiman,4.24,2019,978-0060853983
+137,the color of magic,terry pratchett,3.99,2008,978-0062225672
+139,pachinko,min jin lee,4.31,2022,978-1455563937
+141,station eleven,emily st. john mandel,4.04,2021,978-0385353304
+144,normal people,sally rooney,3.81,2020,978-1984822178
+145,conversations with friends,sally rooney,3.48,2022,978-0571333127
+147,a man called ove,fredrik backman,4.37,2015,978-1476738024
+148,beartown,fredrik backman,4.32,2020,978-1501160769
+149,dark matter,blake crouch,4.11,2024,978-1101904220
+150,project hail mary,andy weir,4.51,2025,978-0593135204
+151,and then there were none,agatha christie,4.26,1945,978-0062073488
+152,the big sleep,raymond chandler,4.0,1946,978-0394758282
+153,the maltese falcon,dashiell hammett,3.94,1941,978-0679722649
+154,v for vendetta,alan moore,4.25,2005,978-1401208417
+155,watchmen,alan moore,4.36,2009,978-0930289232
+157,persepolis,marjane satrapi,4.25,2007,978-0375714573
+165,the prophet,kahlil gibran,4.24,2014,978-0394404288
+166,siddhartha,hermann hesse,4.05,1972,978-0553208849
+167,steppenwolf,hermann hesse,3.95,1974,978-0312278670
+168,east of eden,john steinbeck,4.38,1955,978-0140186390
+169,the sun also rises,ernest hemingway,3.84,1957,978-0743297332
+170,for whom the bell tolls,ernest hemingway,3.97,1943,978-0684803357
+171,as i lay dying,william faulkner,3.73,2013,978-0679732259
+172,the sound and the fury,william faulkner,3.86,1959,978-0679732242
+174,native son,richard wright,4.16,1951,978-0060837563
+176,i know why the caged bird sings,maya angelou,4.24,1979,978-0345514400
+177,the joy luck club,amy tan,3.93,1993,978-0143038092
+179,the white tiger,aravind adiga,3.76,2021,978-1416562603
+180,shantaram,gregory david roberts,4.27,2022,978-0312330538
+182,love in the time of cholera,gabriel garcía márquez,3.92,2007,978-0307389732
+183,the house of the spirits,isabel allende,4.24,1993,978-0743216210
+184,like water for chocolate,laura esquivel,3.95,1992,978-0385420174
+187,my brilliant friend,elena ferrante,4.0,2018,978-1609450786
+188,the unbearable lightness of being,milan kundera,4.11,1988,978-0060932138
+189,blindness,josé saramago,4.14,2008,978-0156007757
+190,the trial,franz kafka,3.98,1962,978-0805209990
+192,waiting for godot,samuel beckett,3.83,2001,978-0802144423
+193,rosencrantz and guildenstern are dead,tom stoppard,4.16,1990,978-0802132758
+194,the metamorphosis,franz kafka,3.82,1987,978-0553213690
+195,breakfast of champions,kurt vonnegut,4.08,1999,978-0385334204
+197,fear and loathing in las vegas,hunter s. thompson,4.08,1998,978-0679785897
+198,no country for old men,cormac mccarthy,4.15,2007,978-0307387134
+201,a study in scarlet,arthur conan doyle,4.15,1933,978-0140439083
+202,the hound of the baskervilles,arthur conan doyle,4.13,1939,978-0140437867
+203,the adventures of sherlock holmes,arthur conan doyle,4.3,1939,978-0192123190
+204,do androids dream of electric sheep?,philip k. dick,4.08,1982,978-0345404473
+206,2001: a space odyssey,arthur c. clarke,4.16,1968,978-0451457998
+209,a wizard of earthsea,ursula k. le guin,4.01,2006,978-0547773742
+211,kindred,octavia e. butler,4.26,2022,978-0807083697
+213,the man in the high castle,philip k. dick,3.63,2015,978-0547572482
+214,starship troopers,robert a. heinlein,4.0,1997,978-0441014101
+216,"i, robot",isaac asimov,4.2,2004,978-0553294385
+218,flowers for algernon,daniel keyes,4.15,1968,978-0156030304
+219,a wrinkle in time,madeleine l'engle,3.99,2018,978-0312367541
+220,bridge to terabithia,katherine paterson,4.02,2007,978-0064401845
+221,holes,louis sachar,4.18,2003,978-0440414803
+222,the phantom tollbooth,norton juster,4.23,1970,978-0394820378
+223,charlie and the chocolate factory,roald dahl,4.15,1971,978-0142410318
+224,james and the giant peach,roald dahl,4.02,1996,978-0140328711
+225,the bfg,roald dahl,4.24,2016,978-0142410387
+226,the count of monte cristo,alexandre dumas,4.27,2002,978-0140449266
+227,the three musketeers,alexandre dumas,4.07,1993,978-0140440256
+228,madame bovary,gustave flaubert,3.68,2014,978-0140449129
+229,the hunchback of notre-dame,victor hugo,4.0,1996,978-0140443530
+230,journey to the center of the earth,jules verne,3.86,2008,978-0140449693
+231,twenty thousand leagues under the sea,jules verne,3.89,1954,978-0140449068
+232,around the world in eighty days,jules verne,3.93,2004,978-0140449068
+234,the brothers karamazov,fyodor dostoevsky,4.32,1958,978-0374528379
+235,the idiot,fyodor dostoevsky,4.19,1958,978-0375702242
+236,dead souls,nikolai gogol,3.96,1984,978-0140448078
+237,the master and margarita,mikhail bulgakov,4.3,2024,978-0679760801
+239,solaris,stanisław lem,3.99,2002,978-0156027601
+240,the witcher: the last wish,andrzej sapkowski,4.14,2019,978-0316029186
+241,blood of elves,andrzej sapkowski,4.09,2019,978-0316029193
+243,roadside picnic,arkady strugatsky,4.24,1979,978-0613898031
+244,heart of darkness,joseph conrad,3.43,1993,978-0140281639
+245,lord jim,joseph conrad,3.7,1965,978-0140180923
+246,the secret agent,joseph conrad,3.6,1996,978-0140180961
+247,gulliver's travels,jonathan swift,3.57,2010,978-0141439495
+248,robinson crusoe,daniel defoe,3.67,1997,978-0141439822
+249,moll flanders,daniel defoe,3.55,1996,978-0140433135
+251,the time machine,h.g. wells,3.88,1960,978-0451528551
+252,the war of the worlds,h.g. wells,3.83,1953,978-0141441030
+253,the invisible man,h.g. wells,3.65,1933,978-0451528537
+254,the call of the wild,jack london,4.0,2020,978-0140274778
+255,white fang,jack london,4.0,1991,978-0140274761
+256,the adventures of tom sawyer,mark twain,3.92,1938,978-0143039617
+257,adventures of huckleberry finn,mark twain,3.83,1993,978-0142437179
+258,carrie,stephen king,3.98,1976,978-0307743664
+259,pet sematary,stephen king,4.03,1989,978-1501156700
+260,salem's lot,stephen king,4.03,1979,978-0307743671
+261,the call of cthulhu,h.p. lovecraft,4.2,2005,978-0141187068
+262,stardust,neil gaiman,4.09,2007,978-0062564344
+264,death on the nile,agatha christie,4.11,1978,978-0062073556
+265,the murder of roger ackroyd,agatha christie,4.25,2000,978-0062073563
+266,the silkworm,robert galbraith,4.05,2017,978-0316206891
+267,the cuckoo's calling,robert galbraith,3.87,2017,978-0316206846
+268,the sign of four,arthur conan doyle,3.92,1983,978-0140439076
+269,interview with the vampire,anne rice,4.0,1994,978-0345337665
+270,the queen's gambit,walter tevis,4.2,2020,978-1400030606
+271,the princess bride,william goldman,4.26,1987,978-0156029841
+272,the last unicorn,peter s. beagle,4.17,1982,978-0451450524
+273,howl's moving castle,diana wynne jones,4.29,2004,978-0061478789
+274,the neverending story,michael ende,4.18,1984,978-0525457589
+275,inkheart,cornelia funke,3.89,2008,978-0439709101
+276,artemis fowl,eoin colfer,3.85,2020,978-1368036986
+277,the lightning thief,rick riordan,4.26,2010,978-0786838653
+278,the golden compass,philip pullman,3.99,2007,978-0440418320
+279,the subtle knife,philip pullman,4.14,2019,978-0375846724
+280,the amber spyglass,philip pullman,4.09,2019,978-0375846731
+281,eragon,christopher paolini,3.91,2006,978-0375826696
+282,city of bones,cassandra clare,4.09,2013,978-1416914280
+285,"red, white & royal blue",casey mcquiston,4.13,2023,978-1250316776
+286,the hating game,sally thorne,3.6,2021,978-0062439604
+290,me before you,jojo moyes,4.26,2016,978-0143124542
+291,bridget jones's diary,helen fielding,3.76,2001,978-0140280090
+292,the devil wears prada,lauren weisberger,3.75,2006,978-0767914765
+293,confessions of a shopaholic,sophie kinsella,3.64,2009,978-0385335485
+294,high fidelity,nick hornby,3.93,2000,978-1573225519
+295,about a boy,nick hornby,3.8,2002,978-1573227339
+296,crazy rich asians,kevin kwan,3.83,2018,978-0385536974
+297,requiem for a dream,hubert selby jr.,4.12,2000,978-1560252481
+298,choke,chuck palahniuk,3.68,2008,978-0385501569
+299,trainspotting,irvine welsh,4.09,1996,978-0393314809
+300,a scanner darkly,philip k. dick,4.03,2006,978-0547572178
+301,in cold blood,truman capote,4.08,1967,978-0679745587
+303,digital fortress,dan brown,3.6,1999,978-0312263126
+304,shutter island,dennis lehane,4.1,2010,978-0062068415
+305,where the wild things are,maurice sendak,4.23,2009,978-0060254926
+306,the cat in the hat,dr. seuss,4.18,2003,978-0394800011
+313,the secret life of bees,sue monk kidd,4.07,2008,978-0142001745
+315,angela's ashes,frank mccourt,4.13,1999,978-0684842677
+316,tuesdays with morrie,mitch albom,4.13,1999,978-0385484510
+326,freakonomics,steven d. levitt,3.99,2010,978-0060731328
+327,a brief history of time,stephen hawking,4.2,1991,978-0553380163
+328,cosmos,carl sagan,4.39,1980,978-0345331359
+330,"guns, germs, and steel",jared diamond,4.04,2005,978-0393317552
+331,team of rivals,doris kearns goodwin,4.28,2012,978-0684824901
+332,alexander hamilton,ron chernow,4.25,2020,978-0143034759
+333,unbroken,laura hillenbrand,4.38,2014,978-1400064168
+335,chronicle of a death foretold,gabriel garcía márquez,3.98,1987,978-1400034710
+336,perfume: the story of a murderer,patrick süskind,4.04,2006,978-0375725845
+337,the name of the rose,umberto eco,4.13,1986,978-0156001311
+339,half of a yellow sun,chimamanda ngozi adichie,4.33,2013,978-1400095209
+342,the virgin suicides,jeffrey eugenides,3.85,1999,978-0446670258
+343,a prayer for owen meany,john irving,4.24,1998,978-0345361790
+344,the world according to garp,john irving,4.1,1982,978-0345366764
+345,bel canto,ann patchett,3.93,2018,978-0060188733
+346,little fires everywhere,celeste ng,4.09,2020,978-0735224292
+347,doctor zhivago,boris pasternak,3.99,1965,978-0307390950
+348,atlas shrugged,ayn rand,3.69,2011,978-0451191144
+349,the fountainhead,ayn rand,3.88,1949,978-0451191151
+350,the lost world,michael crichton,3.8,1997,978-0345538994
+351,the stand,stephen king,4.34,1994,978-0307743688
+352,dr. jekyll and mr. hyde,robert louis stevenson,3.82,1931,978-0141439730
+353,treasure island,robert louis stevenson,3.83,1950,978-0141321004
+354,peter pan,j.m. barrie,4.07,1953,978-0141329819
+355,the wind in the willows,kenneth grahame,3.98,1996,978-0143039099
+356,winnie-the-pooh,a.a. milne,4.34,1977,978-0525444433
+357,mary poppins,p.l. travers,3.99,1964,978-0152058104
+358,pippi longstocking,astrid lindgren,4.14,1988,978-0142402498
+359,anne of green gables,l.m. montgomery,4.26,1985,978-0141321592
+360,heidi,johanna spyri,3.99,1937,978-0141322568
+361,black beauty,anna sewell,3.97,1994,978-0141321035
+362,the jungle book,rudyard kipling,3.94,1967,978-1593081157
+363,kim,rudyard kipling,3.75,1950,978-0141442372
+364,sense and sensibility,jane austen,4.07,1995,978-0141439662
+365,emma,jane austen,4.02,1996,978-0141439587
+366,persuasion,jane austen,4.14,2007,978-0141439686
+367,mansfield park,jane austen,3.85,1999,978-0141439808
+368,northanger abbey,jane austen,3.83,2007,978-0141439792
+369,tess of the d'urbervilles,thomas hardy,3.79,1979,978-0141439594
+370,far from the madding crowd,thomas hardy,3.95,2015,978-0141439655
+371,middlemarch,george eliot,3.99,1994,978-0141439549
+372,silas marner,george eliot,3.61,1985,978-0141439754
+373,david copperfield,charles dickens,4.0,1935,978-0140439441
+374,oliver twist,charles dickens,3.87,1948,978-0141439747
+375,bleak house,charles dickens,4.0,2005,978-0141439723
+376,a christmas carol,charles dickens,4.06,1951,978-0140439052
+377,vanity fair,william makepeace thackeray,3.78,2004,978-0141439839
+378,the woman in white,wilkie collins,4.0,1948,978-0141439617
+379,the moonstone,wilkie collins,3.9,1934,978-0140439243
+380,carmilla,sheridan le fanu,3.84,2014,978-1495418655
+381,the turn of the screw,henry james,3.68,1961,978-0141441351
+382,the portrait of a lady,henry james,3.8,1996,978-0141441269
+383,the age of innocence,edith wharton,3.96,1993,978-0140189704
+384,the house of mirth,edith wharton,3.94,2000,978-0140187298
+386,the yellow wallpaper,charlotte perkins gilman,4.11,1989,978-1613821540
+387,little house on the prairie,laura ingalls wilder,4.19,1974,978-0064400022
+388,"sarah, plain and tall",patricia maclachlan,3.76,1991,978-0064402057
+389,"roll of thunder, hear my cry",mildred d. taylor,4.15,1978,978-0140384519
+391,tuck everlasting,natalie babbitt,3.87,2002,978-0312369811
+392,the westing game,ellen raskin,4.29,1997,978-0142401200
+393,island of the blue dolphins,scott o'dell,3.84,1964,978-0547328614
+394,deception point,dan brown,3.7,2008,978-0743212673
+399,their eyes were watching god,zora neale hurston,4.1,2005,978-0061120060
+402,faust,johann wolfgang von goethe,3.98,1926,978-0385031141
+404,the canterbury tales,geoffrey chaucer,3.5,1972,978-0140424386
+405,beowulf,unknown,3.45,2007,978-0393320978
+406,the iliad,homer,3.87,2004,978-0140275360
+411,leviathan wakes,james s.a. corey,4.26,2015,978-0316129084
+414,the green mile,stephen king,4.46,1999,978-0451190499
+415,different seasons,stephen king,4.37,1994,978-1501143489
+417,murder on the orient express,agatha christie,4.18,1974,978-0062073501
+418,the mysterious affair at styles,agatha christie,3.98,1990,978-0062073556
+419,dark places,gillian flynn,3.94,2015,978-0307341570
+420,before i go to sleep,s.j. watson,3.88,2014,978-0062060563
+421,the girl who played with fire,stieg larsson,4.24,2009,978-0307454553
+422,outlander,diana gabaldon,4.23,2014,978-0440212560
+423,dragonfly in amber,diana gabaldon,4.33,2016,978-0440215622
+424,a discovery of witches,deborah harkness,3.99,2018,978-0143119685
+425,the time traveler's wife,audrey niffenegger,3.98,2009,978-0156029438
+426,fried green tomatoes at the whistle stop cafe,fannie flagg,4.3,1991,978-0449911358
+427,divine secrets of the ya-ya sisterhood,rebecca wells,3.85,2002,978-0060928339
+428,cold mountain,charles frazier,3.85,2003,978-0802142849
+429,lonesome dove,larry mcmurtry,4.5,1989,978-1439195260
+430,true grit,charles portis,4.14,1969,978-1590204597
+431,catching fire,suzanne collins,4.29,2013,978-0439023498
+432,mockingjay,suzanne collins,4.06,2014,978-0439023511
+433,harry potter and the chamber of secrets,j.k. rowling,4.43,2002,978-0439064873
+434,harry potter and the prisoner of azkaban,j.k. rowling,4.57,2004,978-0439136365
+435,fantastic beasts and where to find them,j.k. rowling,3.98,2016,978-1338109061
+439,anxious people,fredrik backman,4.18,2021,978-1501160837
+440,a gentleman in moscow,amor towles,4.33,2024,978-0735221680
+442,all the king's men,robert penn warren,4.1,1949,978-0156012959
+443,wolf hall,hilary mantel,3.88,2015,978-0805080681
+444,bring up the bodies,hilary mantel,3.95,2015,978-0805090031
+445,the other boleyn girl,philippa gregory,4.06,2008,978-0743227445
+446,girl with a pearl earring,tracy chevalier,3.88,2003,978-0452282155
+447,snow flower and the secret fan,lisa see,4.07,2011,978-0812968064
+448,the red tent,anita diamant,4.18,2014,978-0312195513
+449,the guernsey literary and potato peel pie society,mary ann shaffer,4.17,2018,978-0385341004
+450,to all the boys i've loved before,jenny han,4.15,2018,978-1442426702
+451,the diary of a young girl,anne frank,4.19,1959,978-0553296983
+452,the notebook,nicholas sparks,4.1,2004,978-0446605236
+453,a walk to remember,nicholas sparks,4.18,2002,978-0446608954
+454,dear john,nicholas sparks,4.04,2010,978-0446567336
+455,p.s. i love you,cecelia ahern,4.16,2007,978-0786890934
+456,"love, rosie",cecelia ahern,4.2,2014,978-0786891085
+457,one day,david nicholls,3.8,2011,978-0340961175
+461,wonder,r.j. palacio,4.43,2017,978-0375869020
+462,the curious incident of the dog in the night-time,mark haddon,3.89,2012,978-1400032716
+463,extremely loud & incredibly close,jonathan safran foer,3.98,2011,978-0618711659
+464,everything is illuminated,jonathan safran foer,3.92,2005,978-0060529703
+465,the corrections,jonathan franzen,3.81,2025,978-0312421274
+469,white noise,don delillo,3.85,2022,978-0143105985
+472,altered carbon,richard k. morgan,4.12,2018,978-0345457684
+475,annihilation,jeff vandermeer,3.73,2018,978-0374104092
+476,stories of your life and others,ted chiang,4.26,2016,978-1101972120
+478,neverwhere,neil gaiman,4.17,1996,978-0060557812
+479,anansi boys,neil gaiman,4.03,2023,978-0060515188
+483,going postal,terry pratchett,4.39,2010,978-0060502928
+484,the restaurant at the end of the universe,douglas adams,4.21,1981,978-0345391810
+492,wool,hugh howey,4.22,2023,978-1476733951
+495,hidden figures,margot lee shetterly,4.26,2016,978-0062363596
+496,killers of the flower moon,david grann,4.1,2023,978-0385534246
+497,devil in the white city,erik larson,3.99,2024,978-0375725609
+498,the boys in the boat,daniel james brown,4.34,2023,978-0670025817
+502,shadow and bone,leigh bardugo,3.9,2021,978-0805094596
+507,the haunting of hill house,shirley jackson,3.83,1963,978-0143039983
+508,we have always lived in the castle,shirley jackson,3.99,2018,978-0143129431
+509,bird box,josh malerman,4.01,2018,978-0062259653
+510,world war z,max brooks,4.01,2013,978-0307346605
+513,battle royale,koushun takami,4.23,2000,978-1421527727
+514,the vegetarian,han kang,3.63,2009,978-1101980385
+515,"kim jiyoung, born 1982",cho nam-joo,3.77,2019,978-1631496707
+516,before the coffee gets cold,toshikazu kawaguchi,3.67,2018,978-1335430991
+520,the phantom of the opera,gaston leroux,3.96,2004,978-0060809249
+521,the plague,albert camus,3.99,1992,978-0679720218
+522,all quiet on the western front,erich maria remarque,3.96,1930,978-0449213940
+524,the namesake,jhumpa lahiri,3.98,2006,978-0395927212
+527,mrs. dalloway,virginia woolf,3.8,1997,978-0156628709
+528,to the lighthouse,virginia woolf,3.78,1983,978-0156907392
+530,on the road,jack kerouac,3.62,2012,978-0140283299
+532,call me by your name,andré aciman,4.13,2017,978-0312426781
+534,the sympathizer,viet thanh nguyen,3.97,2024,978-0802123459
+542,the underground railroad,colson whitehead,4.03,2021,978-0385542364
+545,olive kitteridge,elizabeth strout,3.81,2014,978-1400062089
+548,in the woods,tana french,3.77,2019,978-0143113492
+549,the thirteenth tale,diane setterfield,4.05,2013,978-0743298025
+550,my cousin rachel,daphne du maurier,3.94,2017,978-0316251266
+551,the firm,john grisham,3.95,1993,978-0385416344
+552,a time to kill,john grisham,4.06,1996,978-0440245919
+553,the pelican brief,john grisham,3.92,1993,978-0440245933
+554,killing floor,lee child,4.06,2022,978-0515123448
+555,red dragon,thomas harris,4.24,2002,978-0440206156
+556,hannibal,thomas harris,3.73,2001,978-0385299295
+557,the talented mr. ripley,patricia highsmith,3.96,1999,978-0393332148
+558,strangers on a train,patricia highsmith,3.94,1951,978-0393321982
+559,the postman always rings twice,james m. cain,3.9,1981,978-0679723257
+560,double indemnity,james m. cain,4.11,1944,978-0679723226
+561,l.a. confidential,james ellroy,4.28,1997,978-0446674249
+562,the black dahlia,james ellroy,3.92,2006,978-0446618120
+563,the exorcist,william peter blatty,4.18,1973,978-0061007224
+564,rosemary's baby,ira levin,4.09,1968,978-1605981109
+565,the stepford wives,ira levin,3.77,2004,978-0060080843
+566,psycho,robert bloch,4.15,1960,978-0879518325
+567,jaws,peter benchley,3.96,1975,978-0345544148
+584,jonathan strange & mr norrell,susanna clarke,3.83,2015,978-0765356154
+588,the english patient,michael ondaatje,3.85,1996,978-0679745204
+589,possession,a.s. byatt,3.83,2002,978-0679735908
+591,the lost symbol,dan brown,3.74,2021,978-0385504225
+596,brief interviews with hideous men,david foster wallace,3.89,2009,978-0316086899
+598,the heart is a lonely hunter,carson mccullers,4.04,1968,978-0618526413
+599,wise blood,flannery o'connor,4.03,1979,978-0374505844
+601,harry potter and the goblet of fire,j.k. rowling,4.56,2005,978-0439139595
+602,harry potter and the order of the phoenix,j.k. rowling,4.5,2007,978-0439358064
+603,harry potter and the half-blood prince,j.k. rowling,4.57,2009,978-0439784542
+604,harry potter and the deathly hallows,j.k. rowling,4.62,2010,978-0545010221
+605,a clash of kings,george r.r. martin,4.41,2012,978-0553381696
+606,a storm of swords,george r.r. martin,4.54,2013,978-0553381702
+607,a feast for crows,george r.r. martin,4.14,2015,978-0553582024
+608,a dance with dragons,george r.r. martin,4.32,2015,978-0553801477
+609,the eye of the world,robert jordan,4.18,2021,978-0812511819
+610,the great hunt,robert jordan,4.22,2021,978-0812517729
+611,the dragon reborn,robert jordan,4.25,2021,978-0812513714
+612,casino royale,ian fleming,3.76,2006,978-1612185439
+613,live and let die,ian fleming,3.67,1973,978-1612185446
+614,moonraker,ian fleming,3.74,1979,978-1612185453
+615,goldfinger,ian fleming,3.83,1964,978-1612185507
+616,tinker tailor soldier spy,john le carré,4.06,2011,978-0143120933
+617,the spy who came in from the cold,john le carré,4.08,1965,978-0143124757
+618,smiley's people,john le carré,4.06,1982,978-0143119661
+619,the day of the jackal,frederick forsyth,4.24,1973,978-0451239372
+620,the bourne identity,robert ludlum,4.03,2002,978-0553260113
+621,the bourne supremacy,robert ludlum,3.95,2004,978-0553263220
+622,the hunt for red october,tom clancy,4.09,1990,978-0425240335
+623,patriot games,tom clancy,4.05,1992,978-0425240359
+624,shōgun,james clavell,4.39,1980,978-0440178002
+625,tai-pan,james clavell,4.23,1986,978-0440184621
+626,king rat,james clavell,4.07,1965,978-0440145462
+627,sphere,michael crichton,3.8,1998,978-0345353146
+628,the andromeda strain,michael crichton,3.89,1971,978-0060541811
+629,congo,michael crichton,3.61,1995,978-0345378491
+630,timeline,michael crichton,3.85,2003,978-0345417626
+631,the martian chronicles,ray bradbury,4.13,1980,978-1451678192
+632,the illustrated man,ray bradbury,4.12,1969,978-1451678185
+633,something wicked this way comes,ray bradbury,3.94,1983,978-0380729401
+634,i am legend,richard matheson,4.0,2007,978-0765357151
+635,what dreams may come,richard matheson,4.11,1998,978-0765308702
+636,contact,carl sagan,4.13,1997,978-0671004101
+637,world without end,ken follett,4.26,2012,978-0451224996
+638,the bad beginning,lemony snicket,3.94,2004,978-0061148518
+639,the reptile room,lemony snicket,3.98,2004,978-0061148532
+640,sideways stories from wayside school,louis sachar,4.16,2005,978-0380731480
+642,a farewell to arms,ernest hemingway,3.8,1932,978-0684801469
+644,the duke and i,julia quinn,3.84,2020,978-0062353597
+645,the viscount who loved me,julia quinn,4.04,2022,978-0062353641
+646,the thorn birds,colleen mccullough,4.23,1983,978-0380018178
+647,streets of laredo,larry mcmurtry,4.08,1995,978-0671792817
+648,empire of the sun,j.g. ballard,3.91,1987,978-0006540939
+649,crash,j.g. ballard,3.32,1996,978-0312420338
+650,high rise,j.g. ballard,3.68,2015,978-0871404022
+657,the gunslinger,stephen king,3.93,2017,978-0451210845
+660,doctor sleep,stephen king,4.09,2019,978-1476727653
+662,time of contempt,andrzej sapkowski,4.25,2019,978-0316219136
+663,baptism of fire,andrzej sapkowski,4.32,2019,978-0316219181
+664,the tower of the swallow,andrzej sapkowski,4.34,2019,978-0316219143
+665,lady of the lake,andrzej sapkowski,4.29,2019,978-0316219150
+666,"sandman, vol. 1: preludes & nocturnes",neil gaiman,4.23,2022,978-1401225759
+667,"sandman, vol. 2: the doll's house",neil gaiman,4.4,2022,978-1401227999
+668,fun home: a family tragicomic,alison bechdel,4.08,2013,978-0618871711
+669,persepolis 2: the story of a return,marjane satrapi,4.36,2007,978-0375714665
+670,the hate u give,angie thomas,4.49,2018,978-0062498533
+671,looking for alaska,john green,3.99,2019,978-0525475064
+672,paper towns,john green,3.86,2015,978-0525478188
+673,thirteen reasons why,jay asher,3.92,2017,978-1595141712
+674,miss peregrine's home for peculiar children,ransom riggs,3.9,2016,978-1594744761
+676,the scorch trials,james dashner,3.9,2015,978-0385738758
+677,the death cure,james dashner,3.8,2018,978-0385738772
+678,insurgent,veronica roth,4.02,2015,978-0062024046
+679,allegiant,veronica roth,3.6,2016,978-0062024060
+680,new moon,stephenie meyer,3.55,2009,978-0316160193
+681,eclipse,stephenie meyer,3.7,2010,978-0316160209
+682,breaking dawn,stephenie meyer,3.72,2011,978-0316067928
+685,schindler's list,thomas keneally,4.35,1993,978-0671880316
+686,brooklyn,colm tóibín,3.92,2015,978-1439136690
+687,the reader,bernhard schlink,3.77,2008,978-0375707971
+688,the sea of monsters,rick riordan,4.23,2013,978-0786856862
+699,wyrd sisters,terry pratchett,4.24,1997,978-0062225726
+701,foundation and empire,isaac asimov,4.23,2021,978-0553293371
+702,second foundation,isaac asimov,4.25,2021,978-0553293364
+705,the light fantastic,terry pratchett,3.99,2008,978-0062225689
+712,alias grace,margaret atwood,4.03,2017,978-0385490443
+719,the magicians,lev grossman,3.51,2015,978-0452296299
+720,prince caspian,c.s. lewis,3.98,2008,978-0064405003
+721,the voyage of the dawn treader,c.s. lewis,4.09,2010,978-0064405027
+722,the silver chair,c.s. lewis,3.96,1990,978-0064405041
+725,cujo,stephen king,3.68,1983,978-0451161352
+726,firestarter,stephen king,3.86,1984,978-1501143793
+727,the dead zone,stephen king,3.95,1983,978-1501143823
+728,thinner,stephen king,3.63,1996,978-1501144172
+732,the death of ivan ilyich,leo tolstoy,4.05,1985,978-0307951335
+733,resurrection,leo tolstoy,3.94,1960,978-0140449945
+735,no exit,jean-paul sartre,4.07,1954,978-0679725169
+736,death of a salesman,arthur miller,3.76,1985,978-0140481341
+737,the crucible,arthur miller,4.06,1996,978-0140481389
+738,a streetcar named desire,tennessee williams,3.98,1951,978-0811216024
+739,cat on a hot tin roof,tennessee williams,4.06,1958,978-0811216017
+740,the pearl,john steinbeck,3.44,1947,978-0140177374
+741,cannery row,john steinbeck,4.03,1982,978-0140177381
+742,the red pony,john steinbeck,3.39,1949,978-0140177367
+743,stuart little,e.b. white,3.85,1999,978-0064400565
+744,the trumpet of the swan,e.b. white,4.06,2001,978-0064408677
+751,inferno,dan brown,3.86,2016,978-0385537858
+753,the shadow rising,robert jordan,4.27,2021,978-0312854317
+754,the fires of heaven,robert jordan,4.23,2021,978-0312854270
+763,bad blood: secrets and lies in a silicon valley startup,john carreyrou,4.38,2019,978-1524731656
+773,the outsider,stephen king,3.98,2020,978-1501180989
+774,11/22/63,stephen king,4.3,2016,978-1451627282
+775,under the dome,stephen king,3.92,2013,978-1439148501
+776,bag of bones,stephen king,3.9,2011,978-0684853505
+777,needful things,stephen king,3.93,1993,978-0670839537
+778,christine,stephen king,3.79,1983,978-0670220267
+781,corduroy,don freeman,4.29,1984,978-0670241330
+782,"alexander and the terrible, horrible, no good, very bad day",judith viorst,4.22,2014,978-0689714346
+783,madeline,ludwig bemelmans,4.14,1998,978-0140564393
+784,curious george,h.a. rey,4.13,2006,978-0395159934
+785,cloudy with a chance of meatballs,judi barrett,4.2,2009,978-0689306473
+787,operation mincemeat,ben macintyre,4.32,2021,978-1408809211
+788,the likeness,tana french,4.07,2019,978-0143115625
+789,faithful place,tana french,4.06,2019,978-0143119494
+790,gone baby gone,dennis lehane,4.13,2007,978-0062068408
+791,the girl who kicked the hornet's nest,stieg larsson,4.22,2009,978-0307454560
+793,the snowman,jo nesbø,4.03,2017,978-0307595861
+795,headhunters,jo nesbø,3.84,2011,978-0307957184
+796,magpie murders,anthony horowitz,4.11,2022,978-0062645227
+800,nine perfect strangers,liane moriarty,3.49,2021,978-1250069825
+801,tell no one,harlan coben,4.13,2006,978-0440245902
+802,the stranger,harlan coben,3.96,2020,978-0525953500
+803,the lincoln lawyer,michael connelly,4.18,2011,978-0316734938
+804,the black echo,michael connelly,4.14,2014,978-0316069434
+806,along came a spider,james patterson,4.09,2001,978-0446364195
+807,kiss the girls,james patterson,4.13,1997,978-0446601245
+808,the bone collector,jeffery deaver,4.19,1999,978-0451488855
+809,presumed innocent,scott turow,4.05,1990,978-0446359863
+810,defending jacob,william landay,4.04,2020,978-0345533666
+811,mystic river,dennis lehane,4.18,2003,978-0060584757
+815,the last thing he told me,laura dave,3.84,2023,978-1501171345
+821,anatomy of a scandal,sarah vaughan,3.79,2022,978-1501172168
+822,apple tree yard,louise doughty,3.6,2017,978-0571297887
+823,the girl before,jp delaney,3.8,2021,978-0425285046
+824,on chesil beach,ian mcewan,3.44,2017,978-0307386175
+826,the children act,ian mcewan,3.87,2018,978-0385539708
+833,mother night,kurt vonnegut,4.22,1996,978-0385334143
+837,chocolat,joanne harris,3.99,2000,978-0552998482
+838,the hundred-foot journey,richard c. morais,3.84,2014,978-1439165652
+839,bastard out of carolina,dorothy allison,4.12,1996,978-0452269576
+840,practical magic,alice hoffman,3.85,1998,978-0425190371
+842,the dovekeepers,alice hoffman,4.07,2015,978-1451617481
+844,the wonder,emma donoghue,3.76,2022,978-0316393874
+845,before i fall,lauren oliver,3.91,2017,978-0061726804
+847,uglies,scott westerfeld,3.86,2024,978-0689865381
+852,one of us is lying,karen m. mcmanus,4.03,2021,978-1524714680
+853,a good girl's guide to murder,holly jackson,4.34,2024,978-1984896391
+857,simon vs. the homo sapiens agenda,becky albertalli,4.23,2018,978-0062348678
+859,aristotle and dante discover the secrets of the universe,benjamin alire sáenz,4.32,2023,978-1442408937
+864,every day,david levithan,3.92,2018,978-0307931887
+865,"everything, everything",nicola yoon,4.01,2017,978-0553496642
+866,the sun is also a star,nicola yoon,4.03,2019,978-0553496680
+867,speak,laurie halse anderson,4.04,2004,978-0312674397
+884,less than zero,bret easton ellis,3.6,1987,978-0679781493
+905,horns,joe hill,3.92,2013,978-0061147955
+906,nos4a2,joe hill,3.92,2019,978-0062200570
+909,odd thomas,dean koontz,4.03,2013,978-0553584493
+910,watchers,dean koontz,4.17,1988,978-0425188804
+911,intensity,dean koontz,4.07,1997,978-0345533376
+912,phantoms,dean koontz,3.92,1998,978-0425181102
+919,britt-marie was here,fredrik backman,4.07,2019,978-1501142543
+921,the 100-year-old man who climbed out the window and disappeared,jonas jonasson,3.83,2013,978-1401324643
+922,"are you there god? it's me, margaret",judy blume,4.0,2023,978-1481409933
+926,stargirl,jerry spinelli,3.77,2020,978-0375822339
+927,maniac magee,jerry spinelli,3.96,2003,978-0316809061
+928,because of winn-dixie,kate dicamillo,4.06,2005,978-0763680862
+929,the tale of despereaux,kate dicamillo,3.98,2008,978-0763680893
+930,shiloh,phyllis reynolds naylor,4.09,1996,978-0689835827
+931,from the mixed-up files of mrs. basil e. frankweiler,e.l. konigsburg,4.17,1973,978-0689711819
+932,the terror,dan simmons,4.05,2018,978-0316017459
+933,the ruins,scott smith,3.63,2008,978-0307390271
+934,a simple plan,scott smith,4.04,1998,978-0307275738
+935,q & a,vikas swarup,4.02,2008,978-0743267489
+936,mao's last dancer,li cunxin,4.11,2009,978-0425201336
+942,the client,john grisham,4.0,1994,978-0385424714
+943,the runaway jury,john grisham,4.04,2003,978-0385472943
+944,the rainmaker,john grisham,4.03,1997,978-0385424738
+945,gerald's game,stephen king,3.51,2017,978-1501143854
+946,dolores claiborne,stephen king,4.02,1995,978-1501143809
+951,the clan of the cave bear,jean m. auel,4.08,1986,978-0553250428
+953,roots: the saga of an american family,alex haley,4.45,1977,978-0306824852
+954,sophie's choice,william styron,4.11,1982,978-0679736370
+955,the cider house rules,john irving,4.14,1999,978-0345387660
+956,the bonfire of the vanities,tom wolfe,3.76,1990,978-0312427573
+958,american pastoral,philip roth,3.94,2016,978-0375701320
+959,the human stain,philip roth,3.85,2003,978-0375726347
+960,"rabbit, run",john updike,3.76,1970,978-0449911655
+961,all the pretty horses,cormac mccarthy,4.03,2000,978-0679744399
+963,childhood's end,arthur c. clarke,4.1,2015,978-0345347954
+965,the day of the triffids,john wyndham,4.04,1962,978-0812967128
+966,the midwich cuckoos,john wyndham,3.95,1960,978-0140014402
+967,flowers in the attic,v.c. andrews,3.84,1987,978-0671729417
+968,petals on the wind,v.c. andrews,3.76,2014,978-0671729479
+969,the princess diaries,meg cabot,3.79,2001,978-0061479939
+970,ella enchanted,gail carson levine,3.98,2004,978-0064407052
+971,the sisterhood of the traveling pants,ann brashares,3.78,2005,978-0385730585
+972,gossip girl,cecily von ziegesar,3.6,2007,978-0316910332
+973,pretty little liars,sara shepard,3.85,2010,978-0060887308
+974,vampire academy,richelle mead,4.12,2014,978-1595141743
+975,fallen,lauren kate,3.68,2016,978-0385739137
+976,beautiful creatures,kami garcia,3.75,2013,978-0316042673
+980,the host,stephenie meyer,3.84,2013,978-0316068048
+982,sex and the city,candace bushnell,3.45,1998,978-0446673549
+983,lipstick jungle,candace bushnell,3.38,2008,978-0786868193
+984,in her shoes,jennifer weiner,3.88,2005,978-0743418171
+985,something borrowed,emily giffin,3.84,2011,978-0312321192
+986,the last song,nicholas sparks,4.14,2010,978-0446547567
+987,safe haven,nicholas sparks,4.18,2013,978-0446547598
+988,message in a bottle,nicholas sparks,3.96,1999,978-0446606813
+989,nights in rodanthe,nicholas sparks,3.85,2008,978-0446692656
+990,a bear called paddington,michael bond,4.26,2014,978-0062312181
+991,the borrowers,mary norton,4.03,1997,978-0152047375
+992,chitty chitty bang bang,ian fleming,3.7,1968,978-0064409445
+993,the hundred and one dalmatians,dodie smith,4.09,1961,978-0140340348
+994,"bambi, a life in the woods",felix salten,3.92,1942,978-1442467453
+995,the fox and the hound,daniel p. mannix,4.08,1981,978-0765330383
+996,the mouse and the motorcycle,beverly cleary,4.11,1986,978-0380709243
+997,"ramona quimby, age 8",beverly cleary,4.07,1988,978-0380709564
+1000,where the red fern grows,wilson rawls,4.1,1974,978-0440412670
+1001,angels & demons,dan brown,3.9,2009,978-0552160896
