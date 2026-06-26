@@ -20,7 +20,7 @@ def clean_books_dataset(df):
     df_clean = df.copy()
     
     # 1. Filtrage sur la colonne 'adapted_to_movie'
-    df_clean = df_clean[df_clean['adapted_to_movie'] == True]
+    df_clean = df_clean[df_clean.adapted_to_movie]
     
     # 2. Gestion des valeurs manquantes (NaN) sur la colonne 'movie_release_year'
     df_clean = df_clean.dropna(subset=['movie_release_year'])
@@ -34,12 +34,9 @@ def clean_books_dataset(df):
     
     # 5. Sélection stricte des 6 colonnes cibles définies
     target_columns = [
-        'id', 
-        'title', 
-        'author', 
-        'rating_average', 
-        'movie_release_year', 
-        'isbn'
+        'isbn', 
+        'title',
+        'rating_average',
     ]
     df_clean = df_clean[target_columns]
     
@@ -49,14 +46,14 @@ def save_intermediaire_data(df, output_path):
     """Sauvegarde le DataFrame nettoyé dans le dossier d'étape intermediaire."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=False, encoding='utf-8')
-    print(f"✅ Étape Transform (Livres) réussie !")
+    print("✅ Étape Transform (Livres) réussie !")
     print(f"💾 Fichier intermédiaire sauvegardé dans : {output_path}")
     print(f"📊 Dimensions de la mini-table : {df.shape[0]} lignes, {df.shape[1]} colonnes.\n")
 
 def run_transform_books():
     """Point d'entrée principal pour l'exécution isolée ou orchestrée."""
-    RAW_BOOKS_PATH = os.path.join("..", "..", "data", "raw", "top_1000_most_swapped_books.csv")
-    INTERMEDIAIRE_BOOKS_PATH = os.path.join("..", "..", "data", "intermediaire", "books_clean.csv")
+    RAW_BOOKS_PATH = os.path.join("data", "raw", "top_1000_most_swapped_books.csv")
+    INTERMEDIAIRE_BOOKS_PATH = os.path.join("data", "intermediaire", "books_clean.csv")
     
     print("🧹 Démarrage du nettoyage du dataset des livres...")
     
