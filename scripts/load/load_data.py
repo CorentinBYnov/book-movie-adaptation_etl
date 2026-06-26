@@ -6,7 +6,7 @@ df_books = pd.read_csv("data/intermediaire/books_clean.csv")
 df_movies = pd.read_csv("data/intermediaire/movies_clean.csv")
 
 df_books_subset = df_books[["title", "id"]].rename(columns={"id": "book_id"})
-df_movies_subset = df_movies[["title", "rank"]].rename(columns={"rank": "movie_id"})
+df_movies_subset = df_movies[["title", "id"]].rename(columns={"id": "movie_id"})
 
 df_matching_ids = df_books_subset.merge(df_movies_subset, on="title", how="inner")
 
@@ -19,25 +19,17 @@ def main():
 
     cur.execute("""
         CREATE TABLE books (
-            id INTEGER PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            isbn TEXT,
             title TEXT NOT NULL,
-            author TEXT,
-            rating_average REAL,
-            movie_release_year INTEGER,
-            isbn TEXT
+            rating_average REAL
         );
     """)
 
     cur.execute("""
         CREATE TABLE movies (
-            rank INTEGER PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT NOT NULL,
-            genre TEXT,
-            description TEXT,
-            director TEXT,
-            actors TEXT,
-            year INTEGER,
-            "runtime (minutes)" INTEGER,
             rating REAL,
             votes INTEGER,
             "revenue (millions)" REAL,
@@ -50,8 +42,8 @@ def main():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             book_id INTEGER NOT NULL,
             movie_id INTEGER NOT NULL,
-            FOREIGN KEY (book_id) REFERENCES books(id),
-            FOREIGN KEY (movie_id) REFERENCES movies(rank)
+            FOREIGN KEY (book_id) REFERENCES books(isbn),
+            FOREIGN KEY (movie_id) REFERENCES movies(id)
         );
     """)
 

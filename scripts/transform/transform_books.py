@@ -34,6 +34,7 @@ def clean_books_dataset(df):
     
     # 5. Sélection stricte des 6 colonnes cibles définies
     target_columns = [
+        'id',
         'isbn', 
         'title',
         'rating_average',
