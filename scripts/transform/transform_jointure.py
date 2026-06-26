@@ -3,8 +3,8 @@ import pandas as pd
 
 def load_intermediate_data():
     """Charge les deux datasets nettoyés depuis le dossier intermediaire."""
-    BOOKS_PATH = os.path.join("..", "..", "data", "intermediaire", "books_clean.csv")
-    MOVIES_PATH = os.path.join("..", "..", "data", "intermediaire", "movies_clean.csv")
+    BOOKS_PATH = os.path.join("data", "processed", "books_clean.csv")
+    MOVIES_PATH = os.path.join("data", "processed", "movies_clean.csv")
     
     if not os.path.exists(BOOKS_PATH) or not os.path.exists(MOVIES_PATH):
         raise FileNotFoundError(
@@ -39,13 +39,13 @@ def save_processed_data(df, output_path):
     """Sauvegarde le dataset final prêt pour l'analyse ou la modélisation."""
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     df.to_csv(output_path, index=False, encoding='utf-8')
-    print(f"✅ Étape Transform Jointure réussie ! 🎉")
+    print("✅ Étape Transform Jointure réussie ! 🎉")
     print(f"💾 Dataset final sauvegardé dans : {output_path}")
     print(f"📊 Dimensions du dataset combiné : {df.shape[0]} lignes, {df.shape[1]} colonnes.\n")
 
 def run_transform_jointure():
     """Point d'entrée principal pour la fusion de l'ETL."""
-    PROCESSED_PATH = os.path.join("..", "..", "data", "processed", "adaptation_books_movies.csv")
+    PROCESSED_PATH = os.path.join("data", "processed", "adaptation_books_movies_full.csv")
     
     print("Démarage du script de jointure des datasets...")
     

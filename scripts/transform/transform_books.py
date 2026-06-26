@@ -54,14 +54,14 @@ def save_intermediaire_data(df, output_path):
 def run_transform_books():
     """Point d'entrée principal pour l'exécution isolée ou orchestrée."""
     RAW_BOOKS_PATH = os.path.join("data", "raw", "top_1000_most_swapped_books.csv")
-    INTERMEDIAIRE_BOOKS_PATH = os.path.join("data", "intermediaire", "books_clean.csv")
+    PROCESSED_BOOKS_PATH = os.path.join("data", "processed", "books_clean.csv")
     
     print("🧹 Démarrage du nettoyage du dataset des livres...")
     
     try:
         df_raw = load_raw_data(RAW_BOOKS_PATH)
         df_clean = clean_books_dataset(df_raw)
-        save_intermediaire_data(df_clean, INTERMEDIAIRE_BOOKS_PATH)
+        save_intermediaire_data(df_clean, PROCESSED_BOOKS_PATH)
         
     except Exception as e:
         print(f"❌ Erreur lors de la transformation des livres : {e}")
