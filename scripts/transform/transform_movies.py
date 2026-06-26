@@ -17,7 +17,7 @@ def change_column_names(df):
 
 
 def export(df, path):
-    df.to_csv(path)
+    df.to_csv(path, index=False)
 
 
 def main():
