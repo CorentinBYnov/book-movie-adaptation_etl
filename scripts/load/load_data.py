@@ -2,13 +2,52 @@ import sqlite3
 import pandas as pd
 
 
-df = pd.read_csv("data/processed/adaptation_books_movies.csv")
+df_books = pd.read_csv("data/processed/books_clean.csv")
+df_movies = pd.read_csv("data/processed/movies_clean.csv")
+df_book_movie_adaptations = pd.read_csv("data/processed/join_books_movies.csv")
 
 
 def main():
-    conn = sqlite3.connect("database/cinema.db")
-    df.to_sql("adaptations", conn)
-    conn.close()
+    con = sqlite3.connect("database/cinema.db")
+    cur = con.cursor()
+
+    cur.execute("""
+        CREATE TABLE books (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            isbn TEXT,
+            title TEXT NOT NULL,
+            rating_average REAL
+        );
+    """)
+
+    cur.execute("""
+        CREATE TABLE movies (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT NOT NULL,
+            rating REAL,
+            votes INTEGER,
+            "revenue (millions)" REAL,
+            metascore REAL
+        );
+    """)
+
+    cur.execute("""
+        CREATE TABLE book_movie_adaptations (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            book_id INTEGER NOT NULL,
+            movie_id INTEGER NOT NULL,
+            FOREIGN KEY (book_id) REFERENCES books(isbn),
+            FOREIGN KEY (movie_id) REFERENCES movies(id)
+        );
+    """)
+
+    df_books.to_sql("books", con, if_exists="append", index=False)
+    df_movies.to_sql("movies", con, if_exists="append", index=False)
+    df_book_movie_adaptations.to_sql(
+        "book_movie_adaptations", con, if_exists="append", index=False
+    )
+
+    con.close()
 
 
 if __name__ == "__main__":
