@@ -2,6 +2,17 @@ import pandas as pd
 
 
 df = pd.read_csv("data/raw/imdb_movie_dataset.csv")
+keep = ["Title", "Rating", "Votes", "Revenue (Millions)", "Metascore"]
+
+
+def pipe(df, functions):
+    for f in functions:
+        df = f(df)
+    return df
+
+
+def select_columns(df, columns):
+    return df[columns]
 
 
 def clean_na(df):
@@ -20,8 +31,11 @@ def export(df, path):
     df.to_csv(path, index=False)
 
 
+functions = (lambda x: select_columns(x, keep), clean_na, lower, change_column_names)
+
+
 def main():
-    clean_df = change_column_names(lower(clean_na(df)))
+    clean_df = pipe(df, functions)
     export(clean_df, "data/intermediaire/movies_clean.csv")
 
 
