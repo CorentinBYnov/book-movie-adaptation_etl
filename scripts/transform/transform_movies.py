@@ -2,7 +2,7 @@ import pandas as pd
 
 
 df = pd.read_csv("data/raw/imdb_movie_dataset.csv")
-keep = ["Rank", "Title", "Rating", "Votes", "Revenue (Millions)", "Metascore"]
+keep = ["Rank", "Title", "Rating", "Votes", "Metascore"]
 
 
 def pipe(df, functions):
