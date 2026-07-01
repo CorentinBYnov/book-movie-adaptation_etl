@@ -5,17 +5,19 @@ df_movies = pd.read_csv("data/intermediate/movies_intermediate.csv")
 df_finance = pd.read_csv("data/intermediate/movie_finance_intermediate.csv")
 
 
-df_movies_final = pd.merge(
+df_movies_finance = pd.merge(
     df_movies, 
     df_finance, 
-    left_on="title", 
-    right_on="name",
+    left_on=["title", "year", "director"], 
+    right_on=["name", "year", "director"],
     how="left",
 )
 
+df_movies_finance_final = df_movies_finance.drop("name", axis=1)
+
 
 def main():
-    df_movies_final.to_csv("data/processed/movies_clean.csv", index=False)
+    df_movies_finance_final.to_csv("data/processed/movies_clean.csv", index=False)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ import pandas as pd
 
 
 df = pd.read_csv("data/raw/movies.csv")
-keep = ["name", "budget", "gross"]
+keep = ["name", "year", "director", "budget", "gross"]
 
 
 def pipe(df, functions):
@@ -45,6 +45,7 @@ functions = (
     lambda x: select_columns(x, keep),
     clean_na,
     lambda x: lower_column(x, "name"),
+    lambda x: lower_column(x, "director"),
     add_profit,
     add_roi,
 )
