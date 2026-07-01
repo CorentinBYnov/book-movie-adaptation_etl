@@ -52,7 +52,7 @@ functions = (
 
 def main():
     clean_df = pipe(df, functions)
-    export(clean_df, "data/processed/movie_finance_clean.csv")
+    export(clean_df, "data/intermediate/movie_finance_intermediate.csv")
 
 
 if __name__ == "__main__":

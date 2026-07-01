@@ -1,0 +1,937 @@
+id,title,rating,votes,metascore
+1,guardians of the galaxy,8.1,757074,76.0
+2,prometheus,7.0,485820,65.0
+3,split,7.3,157606,62.0
+4,sing,7.2,60545,59.0
+5,suicide squad,6.2,393727,40.0
+6,the great wall,6.1,56036,42.0
+7,la la land,8.3,258682,93.0
+8,mindhorn,6.4,2490,71.0
+9,the lost city of z,7.1,7188,78.0
+10,passengers,7.0,192177,41.0
+11,fantastic beasts and where to find them,7.5,232072,66.0
+12,hidden figures,7.8,93103,74.0
+13,rogue one,7.9,323118,65.0
+14,moana,7.7,118151,81.0
+15,colossal,6.4,8612,70.0
+16,the secret life of pets,6.6,120259,61.0
+17,hacksaw ridge,8.2,211760,71.0
+18,jason bourne,6.7,150823,58.0
+19,lion,8.1,102061,69.0
+20,arrival,8.0,340798,81.0
+21,gold,6.7,19053,49.0
+22,manchester by the sea,7.9,134213,96.0
+23,hounds of love,6.7,1115,72.0
+24,trolls,6.5,38552,56.0
+25,independence day: resurgence,5.3,127553,32.0
+29,bad moms,6.2,66540,60.0
+30,assassin's creed,5.9,112813,36.0
+31,why him?,6.3,48123,39.0
+32,nocturnal animals,7.5,126030,67.0
+33,x-men: apocalypse,7.1,275510,52.0
+34,deadpool,8.0,627797,65.0
+35,resident evil: the final chapter,5.6,46165,49.0
+36,captain america: civil war,7.9,411656,75.0
+37,interstellar,8.6,1047747,74.0
+38,doctor strange,7.6,293732,72.0
+39,the magnificent seven,6.9,122853,54.0
+41,sausage party,6.3,120690,66.0
+42,moonlight,7.5,135095,99.0
+44,the founder,7.2,37033,66.0
+45,lowriders,6.3,279,57.0
+46,pirates of the caribbean: on stranger tides,6.7,395025,45.0
+47,miss sloane,7.3,17818,64.0
+49,star trek beyond,7.1,164567,68.0
+50,the last face,3.7,987,16.0
+51,star wars: episode vii - the force awakens,8.1,661608,81.0
+52,underworld: blood wars,5.8,41362,23.0
+53,mother's day,5.6,20221,18.0
+54,john wick,7.2,321933,68.0
+55,the dark knight,9.0,1791916,82.0
+56,silence,7.3,49190,79.0
+57,don't breathe,7.2,121103,71.0
+58,me before you,7.4,113322,51.0
+59,their finest,7.0,3739,76.0
+60,sully,7.5,137608,74.0
+61,batman v superman: dawn of justice,6.7,472307,44.0
+62,the autopsy of jane doe,6.8,35870,65.0
+63,the girl on the train,6.5,102177,48.0
+64,fifty shades of grey,4.1,244474,46.0
+65,the prestige,8.5,913152,66.0
+66,kingsman: the secret service,7.7,440209,58.0
+67,patriots day,7.4,39784,69.0
+68,mad max: fury road,8.1,632842,90.0
+69,wakefield,7.5,291,61.0
+70,deepwater horizon,7.2,89849,68.0
+71,the promise,5.9,149791,49.0
+72,allied,7.1,78079,60.0
+73,a monster calls,7.5,39134,76.0
+74,collateral beauty,6.8,43977,23.0
+75,zootopia,8.1,296853,78.0
+76,pirates of the caribbean: at world's end,7.1,498821,50.0
+77,the avengers,8.1,1045588,69.0
+78,inglourious basterds,8.3,959065,69.0
+79,pirates of the caribbean: dead man's chest,7.3,552027,53.0
+80,ghostbusters,5.3,147717,60.0
+81,inception,8.8,1583625,74.0
+82,captain fantastic,7.9,105081,72.0
+83,the wolf of wall street,8.2,865134,75.0
+84,gone girl,8.1,636243,79.0
+85,furious seven,7.2,301249,67.0
+86,jurassic world,7.0,455169,59.0
+87,live by night,6.4,27869,49.0
+88,avatar,7.8,935408,83.0
+89,the hateful eight,7.8,341170,68.0
+90,the accountant,7.4,162122,51.0
+91,prisoners,8.1,431185,74.0
+92,warcraft,7.0,187547,32.0
+93,the help,8.1,342429,62.0
+94,war dogs,7.1,106463,57.0
+95,avengers: age of ultron,7.4,516895,66.0
+96,the nice guys,7.4,175067,70.0
+97,kimi no na wa,8.6,34110,79.0
+98,the void,5.8,9247,62.0
+99,personal shopper,6.3,10181,77.0
+100,the departed,8.5,937414,85.0
+101,legend,7.0,108836,55.0
+102,thor,7.0,570814,57.0
+103,the martian,8.0,556097,80.0
+105,the man from u.n.c.l.e.,7.3,202973,56.0
+106,hell or high water,7.7,115546,88.0
+107,the comedian,5.4,1954,40.0
+108,the legend of tarzan,6.3,117590,44.0
+109,all we had,5.8,1004,48.0
+110,ex machina,7.7,339797,78.0
+111,the belko experiment,6.3,3712,44.0
+112,12 years a slave,8.1,486338,96.0
+113,the bad batch,6.1,512,65.0
+114,300,7.7,637104,52.0
+115,harry potter and the deathly hallows: part 2,8.1,590595,87.0
+116,office christmas party,5.8,30761,42.0
+117,the neon demon,6.2,50359,51.0
+119,10 cloverfield lane,7.2,192968,76.0
+120,finding dory,7.4,157026,77.0
+121,miss peregrine's home for peculiar children,6.7,101058,57.0
+122,divergent,6.7,362093,48.0
+123,mike and dave need wedding dates,6.0,53183,51.0
+125,the dark knight rises,8.5,1222645,78.0
+126,the jungle book,7.5,198243,77.0
+127,transformers: age of extinction,5.7,255483,32.0
+128,nerve,6.6,69651,58.0
+129,mamma mia!,6.4,153481,51.0
+130,the revenant,8.0,499424,76.0
+131,fences,7.3,50953,79.0
+132,into the woods,6.0,109756,69.0
+133,the shallows,6.4,78328,59.0
+134,whiplash,8.5,477276,88.0
+135,furious 6,7.1,318051,61.0
+136,the place beyond the pines,7.3,200090,68.0
+137,no country for old men,8.1,660286,91.0
+138,the great gatsby,7.3,386102,55.0
+139,shutter island,8.1,855604,63.0
+140,brimstone,7.1,13004,44.0
+141,star trek,8.0,526324,82.0
+142,diary of a wimpy kid,6.2,34184,56.0
+143,the big short,7.8,246360,81.0
+144,room,8.2,224132,86.0
+145,django unchained,8.4,1039115,81.0
+146,ah-ga-ssi,8.1,33418,84.0
+147,the edge of seventeen,7.4,47694,77.0
+148,watchmen,7.6,410249,56.0
+149,superbad,7.6,442082,76.0
+150,inferno,6.2,97623,42.0
+151,the bfg,6.4,50853,66.0
+152,the hunger games,7.2,735604,68.0
+153,white girl,5.8,4299,65.0
+154,sicario,7.6,243230,82.0
+156,aliens vs predator - requiem,4.7,97618,29.0
+157,pacific rim,7.0,400519,64.0
+158,"crazy, stupid, love.",7.4,396714,68.0
+159,scott pilgrim vs. the world,7.5,291457,69.0
+160,hot fuzz,7.9,373244,81.0
+161,mine,6.0,5926,40.0
+162,free fire,7.0,6946,63.0
+163,x-men: days of future past,8.0,552298,74.0
+164,jack reacher: never go back,6.1,78043,47.0
+165,casino royale,8.0,495106,80.0
+166,twilight,5.2,361449,56.0
+167,now you see me 2,6.5,156567,46.0
+168,woman in gold,7.3,39723,51.0
+169,13 hours,7.3,76935,48.0
+170,spectre,6.8,308981,60.0
+171,nightcrawler,7.9,332476,76.0
+172,kubo and the two strings,7.9,72778,84.0
+173,beyond the gates,5.2,2127,59.0
+174,her,8.0,390531,90.0
+175,frozen,7.5,451894,74.0
+176,tomorrowland,6.5,143069,60.0
+177,dawn of the planet of the apes,7.6,337777,79.0
+178,tropic thunder,7.0,321442,71.0
+179,the conjuring 2,7.4,137203,65.0
+180,ant-man,7.3,368912,64.0
+181,bridget jones's baby,6.7,43086,59.0
+182,the vvitch: a new-england folktale,6.8,101781,83.0
+183,cinderella,7.0,117018,67.0
+185,forushande,8.0,22389,85.0
+186,love,6.0,24003,51.0
+187,billy lynn's long halftime walk,6.3,11944,53.0
+188,crimson peak,6.6,97454,66.0
+189,drive,7.8,461509,78.0
+190,trainwreck,6.3,106364,75.0
+191,the light between oceans,7.2,27382,60.0
+192,below her mouth,5.6,1445,42.0
+193,spotlight,8.1,268282,93.0
+194,morgan,5.8,22107,48.0
+195,warrior,8.2,355722,71.0
+196,captain america: the first avenger,6.9,547368,66.0
+198,into the wild,8.1,459304,73.0
+199,the imitation game,8.1,532353,73.0
+200,central intelligence,6.3,97082,52.0
+201,edge of tomorrow,7.9,471815,71.0
+202,a cure for wellness,6.5,12193,47.0
+203,snowden,7.3,79855,58.0
+204,iron man,7.9,737719,79.0
+205,allegiant,5.7,70504,33.0
+206,x: first class,7.8,550011,65.0
+207,raw (ii),7.5,5435,81.0
+208,paterson,7.5,26089,90.0
+209,bridesmaids,6.8,227912,75.0
+210,the girl with all the gifts,6.7,23713,67.0
+211,san andreas,6.1,161396,43.0
+212,spring breakers,5.3,114290,63.0
+213,transformers,7.1,531112,61.0
+214,old boy,5.8,54679,49.0
+215,thor: the dark world,7.0,443584,54.0
+216,gods of egypt,5.5,73568,25.0
+217,captain america: the winter soldier,7.8,542362,70.0
+218,monster trucks,5.7,7044,41.0
+219,a dark song,6.1,1703,67.0
+220,kick-ass,7.7,456749,66.0
+221,hardcore henry,6.7,61098,51.0
+222,cars,7.1,283445,73.0
+223,it follows,6.9,136399,83.0
+224,the girl with the dragon tattoo,7.8,348551,71.0
+225,we're the millers,7.0,334867,44.0
+226,american honey,7.0,19660,79.0
+227,the lobster,7.1,121313,82.0
+228,predators,6.4,179450,51.0
+229,maleficent,7.0,268877,56.0
+230,rupture,4.8,2382,35.0
+231,pan's labyrinth,8.2,498879,98.0
+232,a kind of murder,5.2,3305,50.0
+233,apocalypto,7.8,247926,68.0
+234,mission: impossible - rogue nation,7.4,257472,75.0
+235,the huntsman: winter's war,6.1,66766,35.0
+236,the perks of being a wallflower,8.0,377336,67.0
+237,jackie,6.8,41446,81.0
+238,the disappointments room,3.9,4895,31.0
+239,the grand budapest hotel,8.1,530881,88.0
+240,the host,5.9,96852,35.0
+241,fury,7.6,332234,64.0
+242,inside out,8.2,416689,94.0
+243,rock dog,5.8,1109,48.0
+244,terminator genisys,6.5,205365,38.0
+245,percy jackson & the olympians: the lightning thief,5.9,148949,47.0
+246,les misérables,7.6,257426,63.0
+247,children of men,7.9,382910,84.0
+248,20th century women,7.4,14708,83.0
+249,spy,7.1,188017,75.0
+250,the intouchables,8.6,557965,57.0
+251,bonjour anne,4.9,178,50.0
+252,kynodontas,7.3,50946,73.0
+253,straight outta compton,7.9,139831,72.0
+254,the amazing spider-man 2,6.7,342183,53.0
+255,the conjuring,7.5,330305,68.0
+256,the hangover,7.8,611563,73.0
+257,battleship,5.8,210349,41.0
+258,rise of the planet of the apes,7.6,422290,68.0
+259,lights out,6.4,69823,58.0
+260,norman: the moderate rise and tragic fall of a new york fixer,7.1,664,76.0
+261,birdman or (the unexpected virtue of ignorance),7.8,440299,88.0
+262,black swan,8.0,581518,79.0
+263,dear white people,6.2,21715,79.0
+264,nymphomaniac: vol. i,7.0,90556,64.0
+265,teenage mutant ninja turtles: out of the shadows,6.0,59312,40.0
+266,knock knock,4.9,53441,53.0
+267,dirty grandpa,6.0,75137,18.0
+268,cloud atlas,7.5,298651,55.0
+269,x-men origins: wolverine,6.7,388447,40.0
+271,skyfall,7.8,547386,81.0
+272,the hobbit: an unexpected journey,7.9,668651,58.0
+273,21 jump street,7.2,432046,69.0
+274,sing street,8.0,52144,79.0
+276,oblivion,7.0,410125,54.0
+277,22 jump street,7.1,280110,71.0
+278,zodiac,7.7,329683,78.0
+279,everybody wants some!!,7.0,36312,83.0
+280,iron man three,7.2,591023,62.0
+281,now you see me,7.3,492324,50.0
+282,sherlock holmes,7.6,501769,57.0
+284,the danish girl,7.0,110773,66.0
+285,hercules,6.0,122838,47.0
+286,sucker punch,6.1,204874,33.0
+287,keeping up with the joneses,5.8,30405,34.0
+288,jupiter ascending,5.3,150121,40.0
+289,masterminds,5.8,26508,47.0
+291,busanhaeng,7.5,58782,72.0
+292,pitch perfect,7.2,226631,66.0
+293,neighbors 2: sorority rising,5.7,76327,58.0
+295,man of steel,7.1,577010,55.0
+296,the choice,6.6,20514,26.0
+297,ice age: collision course,5.7,34523,34.0
+298,the devil wears prada,6.8,302268,62.0
+299,the infiltrator,7.1,43929,66.0
+300,there will be blood,8.1,400682,92.0
+301,the equalizer,7.2,249425,57.0
+302,lone survivor,7.5,218996,60.0
+303,the cabin in the woods,7.0,295554,72.0
+304,the house bunny,5.5,67033,55.0
+305,she's out of my league,6.4,105619,46.0
+306,inherent vice,6.7,69509,81.0
+307,alice through the looking glass,6.2,57207,34.0
+309,the fast and the furious: tokyo drift,6.0,193479,45.0
+310,how to be single,6.1,59886,51.0
+311,the blind side,7.7,237221,53.0
+312,la vie d'adèle,7.8,103150,88.0
+313,the babadook,6.8,132580,86.0
+314,the hobbit: the battle of the five armies,7.4,385598,59.0
+315,harry potter and the order of the phoenix,7.5,385325,71.0
+316,snowpiercer,7.0,199048,84.0
+317,the 5th wave,5.2,73093,33.0
+319,the visit,6.2,81429,55.0
+320,fast five,7.3,300803,66.0
+321,step up,6.5,95960,48.0
+322,lovesong,6.4,616,74.0
+323,rocknrolla,7.3,203096,53.0
+324,in time,6.7,319025,53.0
+325,the social network,7.7,510100,95.0
+326,the last witch hunter,6.0,71149,34.0
+327,victor frankenstein,6.0,37975,36.0
+328,a street cat named bob,7.4,12643,54.0
+329,green room,7.0,62885,79.0
+330,blackhat,5.4,43085,51.0
+331,storks,6.9,34248,56.0
+332,american sniper,7.3,353305,72.0
+333,dallas buyers club,8.0,352801,84.0
+334,lincoln,7.4,207497,86.0
+335,rush,8.1,339722,75.0
+337,silver linings playbook,7.8,564364,81.0
+338,tracktown,5.9,115,64.0
+339,the fault in our stars,7.8,271301,69.0
+340,blended,6.5,93764,31.0
+341,fast & furious,6.6,217464,46.0
+342,looper,7.4,452369,84.0
+343,white house down,6.4,173320,52.0
+344,pete's dragon,6.8,36322,71.0
+345,spider-man 3,6.2,406219,59.0
+346,the three musketeers,5.8,92329,35.0
+347,stardust,7.7,220664,66.0
+348,american hustle,7.3,379088,90.0
+349,jennifer's body,5.1,96617,47.0
+350,midnight in paris,7.7,320323,81.0
+351,lady macbeth,7.3,1396,83.0
+352,joy,6.6,97679,56.0
+353,the dressmaker,7.1,33352,47.0
+354,café society,6.7,45579,64.0
+355,insurgent,6.3,171970,42.0
+356,seventh son,5.5,59958,30.0
+358,the theory of everything,7.7,299718,72.0
+359,this is the end,6.6,327838,67.0
+360,about time,7.8,221600,55.0
+361,step brothers,6.9,223065,51.0
+362,clown,5.7,14248,42.0
+363,star trek into darkness,7.8,417663,72.0
+364,zombieland,7.7,409403,73.0
+365,"hail, caesar!",6.3,89059,72.0
+366,slumdog millionaire,8.0,677044,86.0
+367,the twilight saga: breaking dawn - part 2,5.5,194329,52.0
+369,the amazing spider-man,7.0,474320,66.0
+370,ben-hur,5.7,28326,38.0
+371,sleight,6.0,702,62.0
+372,the maze runner,6.8,335531,57.0
+373,criminal,6.3,38430,36.0
+374,wanted,6.7,312495,64.0
+375,florence foster jenkins,6.9,31776,71.0
+376,collide,5.7,7583,33.0
+377,black mass,6.9,135706,68.0
+378,creed,7.6,175673,82.0
+379,swiss army man,7.1,61812,64.0
+380,the expendables 3,6.1,137568,35.0
+381,what we do in the shadows,7.6,84016,76.0
+382,southpaw,7.4,169083,57.0
+383,hush,6.6,45867,67.0
+384,bridge of spies,7.6,217938,81.0
+385,the lego movie,7.8,266508,83.0
+386,everest,7.1,154647,64.0
+387,pixels,5.6,101092,27.0
+388,robin hood,6.7,221117,53.0
+389,the wolverine,6.7,355362,60.0
+390,john carter,6.6,220667,51.0
+391,keanu,6.3,31913,63.0
+392,the gunman,5.8,31194,39.0
+393,steve jobs,7.2,116112,82.0
+394,whisky galore,5.0,102,43.0
+395,grown ups 2,5.4,114482,19.0
+396,the age of adaline,7.2,112288,51.0
+397,the incredible hulk,6.8,342355,61.0
+398,couples retreat,5.5,86417,23.0
+399,absolutely anything,6.0,26587,31.0
+400,magic mike,6.1,113686,72.0
+401,minions,6.4,159830,56.0
+402,the black room,3.9,240,71.0
+404,despicable me,7.7,410607,72.0
+405,the best of me,6.7,49041,29.0
+406,the invitation,6.7,40529,74.0
+407,zero dark thirty,7.4,226661,95.0
+408,tangled,7.8,316459,71.0
+409,the hunger games: mockingjay - part 2,6.6,202380,65.0
+410,vacation,6.1,74589,34.0
+411,taken,7.8,502961,50.0
+412,pitch perfect 2,6.5,108306,63.0
+413,monsters university,7.3,252119,65.0
+414,elle,7.2,35417,89.0
+415,mechanic: resurrection,5.6,48161,38.0
+416,tusk,5.4,34546,55.0
+417,the headhunter's calling,6.9,164,85.0
+419,harry potter and the deathly hallows: part 1,7.7,357213,65.0
+420,shame,7.2,155010,72.0
+421,hanna,6.8,164208,65.0
+422,the babysitters,5.7,8914,35.0
+423,pride and prejudice and zombies,5.8,35003,45.0
+424,300: rise of an empire,6.2,237887,48.0
+425,london has fallen,5.9,100702,28.0
+426,the curious case of benjamin button,7.8,485075,70.0
+427,sin city: a dame to kill for,6.5,122185,46.0
+428,the bourne ultimatum,8.1,525700,85.0
+429,srpski film,5.2,43648,55.0
+431,3 idiots,8.4,238789,67.0
+432,zoolander 2,4.7,48297,34.0
+433,world war z,7.0,494819,63.0
+434,mission: impossible - ghost protocol,7.4,382459,73.0
+435,let me make you a martyr,6.4,223,56.0
+437,the longest ride,7.1,58421,33.0
+438,the imposible,7.6,156189,73.0
+439,kick-ass 2,6.6,214825,41.0
+440,folk hero & funny guy,5.6,220,63.0
+441,oz the great and powerful,6.3,181521,44.0
+442,brooklyn,7.5,94977,87.0
+443,coraline,7.7,156620,80.0
+444,blue valentine,7.4,151409,81.0
+445,the thinning,6.0,4531,31.0
+447,dredd,7.1,213764,59.0
+448,hunt for the wilderpeople,7.9,52331,81.0
+449,big hero 6,7.8,309186,74.0
+450,carrie,5.9,113272,53.0
+451,iron man 2,7.0,556666,57.0
+452,demolition,7.0,58720,49.0
+453,pandorum,6.8,126656,28.0
+454,olympus has fallen,6.5,214994,41.0
+455,i am number four,6.1,202682,36.0
+456,jagten,8.3,192263,76.0
+457,the proposal,6.7,241709,48.0
+458,get hard,6.0,95119,34.0
+459,just go with it,6.4,182069,33.0
+460,revolutionary road,7.3,159736,69.0
+461,the town,7.6,294553,74.0
+462,the boy,6.0,51235,42.0
+463,denial,6.6,8229,63.0
+464,predestination,7.5,187760,69.0
+465,goosebumps,6.3,57602,60.0
+466,sherlock holmes: a game of shadows,7.5,357436,48.0
+467,salt,6.4,255813,65.0
+468,enemy,6.9,111558,61.0
+469,district 9,8.0,556794,81.0
+470,the other guys,6.7,199900,64.0
+471,american gangster,7.8,337835,76.0
+472,marie antoinette,6.4,83941,65.0
+473,2012,5.8,297984,49.0
+474,harry potter and the half-blood prince,7.5,351059,78.0
+475,argo,7.7,481274,86.0
+476,eddie the eagle,7.4,56332,54.0
+477,the lives of others,8.5,278103,89.0
+478,pet,5.7,8404,48.0
+479,paint it black,8.3,61,71.0
+480,macbeth,6.7,41642,71.0
+481,forgetting sarah marshall,7.2,226619,67.0
+482,the giver,6.5,93799,47.0
+483,triple 9,6.3,48400,52.0
+484,perfetti sconosciuti,7.7,17584,43.0
+486,moonrise kingdom,7.8,254446,84.0
+487,hairspray,6.7,102954,81.0
+488,safe haven,6.7,84765,34.0
+489,focus,6.6,166489,56.0
+490,ratatouille,8.0,504039,96.0
+491,stake land,6.5,36091,66.0
+492,the book of eli,6.9,241359,53.0
+493,cloverfield,7.0,313803,64.0
+494,point break,5.3,44553,34.0
+495,under the skin,6.3,94707,78.0
+496,i am legend,7.2,565721,65.0
+497,men in black 3,6.8,278379,58.0
+498,super 8,7.1,298913,72.0
+499,law abiding citizen,7.4,228339,34.0
+500,up,8.3,722203,88.0
+501,maze runner: the scorch trials,6.3,159364,43.0
+502,carol,7.2,77995,95.0
+503,imperium,6.5,27428,68.0
+504,youth,7.3,52636,64.0
+505,mr. nobody,7.9,166872,63.0
+506,city of tiny lights,5.7,291,54.0
+507,savages,6.5,107960,59.0
+508,(500) days of summer,7.7,398972,76.0
+509,movie 43,4.3,83625,18.0
+510,gravity,7.8,622089,96.0
+511,the boy in the striped pyjamas,7.8,144614,55.0
+512,shooter,7.2,267820,53.0
+513,the happening,5.0,170897,34.0
+514,bone tomahawk,7.1,47289,72.0
+515,magic mike xxl,5.7,42506,60.0
+516,easy a,7.1,294950,72.0
+517,exodus: gods and kings,6.0,137299,52.0
+518,chappie,6.9,188769,41.0
+519,the hobbit: the desolation of smaug,7.9,513744,66.0
+520,half of a yellow sun,6.2,1356,51.0
+521,anthropoid,7.2,24100,59.0
+522,the counselor,5.3,84927,48.0
+523,viking,4.7,1830,57.0
+525,trust,7.0,36043,60.0
+526,birth of the dragon,3.9,552,61.0
+528,the green inferno,5.4,26461,38.0
+529,godzilla,6.4,318058,62.0
+530,the bourne legacy,6.7,245374,61.0
+531,a good year,6.9,74674,47.0
+532,friend request,5.4,12758,59.0
+534,lucy,6.4,352698,61.0
+535,a quiet passion,7.2,1024,77.0
+536,need for speed,6.5,143389,39.0
+537,jack reacher,7.0,250811,50.0
+538,the do-over,5.7,24761,22.0
+539,true crimes,7.3,198,43.0
+541,the ghost writer,7.2,137964,77.0
+542,limitless,7.4,444417,59.0
+543,spectral,6.3,27042,39.0
+545,zipper,5.7,4912,39.0
+546,midnight special,6.7,54787,76.0
+547,don't think twice,6.8,10485,83.0
+548,alice in wonderland,6.5,324898,53.0
+549,chuck,6.8,391,68.0
+550,"i, daniel blake",7.9,22941,77.0
+551,the break-up,5.8,106381,45.0
+552,loving,7.1,17141,79.0
+553,fantastic four,4.3,121847,27.0
+554,the survivalist,6.3,9187,80.0
+555,colonia,7.1,30074,33.0
+556,the boy next door,4.6,30180,30.0
+557,the gift,7.1,96688,77.0
+558,dracula untold,6.3,148504,40.0
+559,in the heart of the sea,6.9,90372,47.0
+560,idiocracy,6.6,115355,66.0
+561,the expendables,6.5,283282,45.0
+562,evil dead,6.5,133113,57.0
+563,sinister,6.8,171169,53.0
+564,wreck-it ralph,7.8,290559,72.0
+565,snow white and the huntsman,6.1,239772,57.0
+566,pan,5.8,47804,36.0
+567,transformers: dark of the moon,6.3,338369,42.0
+568,juno,7.5,432461,81.0
+569,a hologram for the king,6.1,26521,58.0
+570,money monster,6.5,68654,55.0
+571,the other woman,6.0,110825,39.0
+572,enchanted,7.1,150353,75.0
+573,the intern,7.1,159582,51.0
+574,little miss sunshine,7.8,374044,80.0
+575,bleed for this,6.8,11900,62.0
+576,clash of the titans,5.8,238206,39.0
+577,the finest hours,6.8,44425,58.0
+578,tron,6.8,273959,49.0
+579,the hunger games: catching fire,7.6,525646,76.0
+580,all good things,6.3,44158,57.0
+581,kickboxer: vengeance,4.9,6809,37.0
+582,the last airbender,4.2,125129,20.0
+583,sex tape,5.1,89885,36.0
+584,what to expect when you're expecting,5.7,60059,41.0
+585,moneyball,7.6,297395,87.0
+586,ghost rider,5.2,190673,35.0
+587,unbroken,7.2,114006,59.0
+588,immortals,6.0,142900,46.0
+589,sunshine,7.3,199860,64.0
+590,brave,7.2,293941,69.0
+591,män som hatar kvinnor,7.8,182074,76.0
+592,adoration,6.2,25208,37.0
+593,the drop,7.1,116118,69.0
+594,she's the man,6.4,122864,45.0
+595,daddy's home,6.1,68306,42.0
+596,let me in,7.2,97141,79.0
+597,never back down,6.6,84083,39.0
+598,grimsby,6.2,63408,44.0
+599,moon,7.9,277123,67.0
+600,megamind,7.3,183926,63.0
+601,gangster squad,6.7,181432,40.0
+602,blood father,6.4,40357,66.0
+603,he's just not that into you,6.4,137684,47.0
+604,kung fu panda 3,7.2,89791,66.0
+605,the rise of the krays,5.1,1630,90.0
+608,horrible bosses,6.9,368556,57.0
+609,mommy,8.1,33560,74.0
+610,hellboy ii: the golden army,7.0,216932,78.0
+611,beautiful creatures,6.2,71822,52.0
+612,toni erdmann,7.6,24387,93.0
+613,the lovely bones,6.7,130702,42.0
+614,the assassination of jesse james by the coward robert ford,7.5,143564,68.0
+615,don jon,6.6,199973,66.0
+616,bastille day,6.3,21089,48.0
+617,2307: winter's dream,4.0,277,53.0
+619,mr. right,6.3,30053,52.0
+620,the secret life of walter mitty,7.3,249877,54.0
+621,dope,7.3,66400,72.0
+622,underworld awakening,6.4,127157,39.0
+623,antichrist,6.6,94069,49.0
+624,friday the 13th,5.6,78631,34.0
+625,taken 3,6.0,144715,26.0
+626,total recall,6.3,210965,43.0
+627,x-men: the last stand,6.7,406540,58.0
+628,the escort,6.0,7181,46.0
+630,night at the museum: secret of the tomb,6.2,74886,47.0
+631,love & other drugs,6.7,151519,55.0
+632,the interview,6.6,261536,52.0
+633,the host,7.0,73491,85.0
+634,megan is missing,4.9,6683,94.0
+636,knocked up,7.0,309398,85.0
+637,source code,7.5,404884,74.0
+638,lawless,7.3,195360,58.0
+639,unfriended,5.6,50402,59.0
+640,american reunion,6.7,178471,49.0
+641,the pursuit of happyness,8.0,361105,64.0
+642,relatos salvajes,8.1,110100,77.0
+643,the ridiculous 6,4.8,31149,18.0
+644,frantz,7.5,4304,73.0
+645,viral,5.5,3564,72.0
+647,burnt,6.6,76469,42.0
+648,tall men,3.2,173,57.0
+650,vampire academy,5.6,44111,30.0
+651,sweeney todd: the demon barber of fleet street,7.4,296289,83.0
+652,solace,6.4,36300,36.0
+653,insidious,6.8,219916,52.0
+654,popstar: never stop never stopping,6.7,30875,68.0
+655,the levelling,6.4,482,82.0
+656,public enemies,7.0,240323,70.0
+657,boyhood,7.9,286722,100.0
+658,teenage mutant ninja turtles,5.9,178527,31.0
+659,eastern promises,7.7,198006,82.0
+660,the daughter,6.7,2798,62.0
+661,pineapple express,7.0,267872,64.0
+662,the first time,6.9,54027,55.0
+663,gone baby gone,7.7,206707,72.0
+664,the heat,6.6,140151,60.0
+665,l'avenir,7.1,5796,88.0
+666,anna karenina,6.6,75291,63.0
+667,regression,5.7,26320,32.0
+668,ted 2,6.3,136323,48.0
+669,pain & gain,6.5,168875,45.0
+670,blood diamond,8.0,422014,64.0
+671,devil's knot,6.1,15514,42.0
+672,child 44,6.5,47703,41.0
+673,the hurt locker,7.6,352023,94.0
+674,green lantern,5.6,231907,39.0
+675,war on everyone,5.9,9285,50.0
+676,the mist,7.2,233346,58.0
+677,escape plan,6.7,188004,49.0
+678,"love, rosie",7.2,80415,44.0
+679,the duff,6.5,57874,56.0
+680,the age of shadows,7.2,2403,78.0
+681,the hunger games: mockingjay - part 1,6.7,331902,64.0
+682,we need to talk about kevin,7.5,104953,68.0
+683,love & friendship,6.5,16164,87.0
+684,the mortal instruments: city of bones,5.9,112313,33.0
+685,seven pounds,7.7,245144,36.0
+686,the king's speech,8.0,534388,88.0
+687,hunger,7.6,54486,82.0
+688,jumper,6.1,252503,35.0
+689,toy story 3,8.3,586669,92.0
+690,tinker tailor soldier spy,7.1,157053,85.0
+691,resident evil: retribution,5.4,114144,39.0
+692,dear zindagi,7.8,23540,56.0
+694,pompeii,5.5,90188,39.0
+695,life of pi,7.9,471109,79.0
+696,hachi: a dog's tale,8.1,177602,61.0
+698,i origins,7.3,86271,57.0
+699,live free or die hard,7.2,347567,69.0
+700,the matchbreaker,5.5,1427,44.0
+702,ted,7.0,494641,62.0
+703,red,7.1,250012,60.0
+704,australia,6.6,106115,53.0
+705,faster,6.5,83788,44.0
+706,the neighbor,5.8,4754,60.0
+708,the hollars,6.5,5908,53.0
+709,the judge,7.4,146812,48.0
+710,closed circuit,6.2,18437,50.0
+711,transformers: revenge of the fallen,6.0,335757,35.0
+712,la tortue rouge,7.6,11482,86.0
+713,the book of life,7.3,50388,67.0
+714,incendies,8.2,92863,80.0
+715,the heartbreak kid,5.8,74664,46.0
+716,happy feet,6.5,141141,77.0
+717,entourage,6.6,64557,38.0
+718,the strangers,6.2,96718,47.0
+719,noah,5.8,209700,68.0
+720,neighbors,6.4,236500,68.0
+721,nymphomaniac: vol. ii,6.7,65824,60.0
+722,wild,7.1,95553,76.0
+723,grown ups,6.0,190385,30.0
+724,blair witch,5.1,26088,47.0
+725,the karate kid,6.2,127983,61.0
+726,dark shadows,6.2,209326,55.0
+727,friends with benefits,6.6,286543,63.0
+728,the illusionist,7.6,309934,68.0
+729,the a-team,6.8,219116,47.0
+730,the guest,6.7,71069,76.0
+731,the internship,6.3,166342,42.0
+732,paul,7.0,201707,57.0
+733,this beautiful fantastic,6.9,688,51.0
+734,the da vinci code,6.6,338280,46.0
+735,mr. church,7.7,16163,37.0
+736,hugo,7.5,259182,83.0
+737,the blackcoat's daughter,5.6,4155,68.0
+738,body of lies,7.1,182305,57.0
+739,knight of cups,5.7,17439,53.0
+740,the mummy: tomb of the dragon emperor,5.2,124554,31.0
+741,the boss,5.4,29642,40.0
+742,hands of stone,6.6,8998,54.0
+743,el secreto de sus ojos,8.2,144524,80.0
+744,true grit,7.6,254904,80.0
+745,we are your friends,6.2,25903,46.0
+746,a million ways to die in the west,6.1,144779,44.0
+747,only for one night,4.6,313,60.0
+749,ouija: origin of evil,6.1,30035,65.0
+750,percy jackson: sea of monsters,5.9,91684,39.0
+751,fracture,7.2,148943,68.0
+752,oculus,6.5,92875,61.0
+753,in bruges,7.9,322536,67.0
+754,this means war,6.3,154400,31.0
+755,lída baarová,5.0,353,64.0
+757,lavender,5.2,2083,46.0
+758,deuces,6.6,256,36.0
+760,the fighter,7.8,290056,79.0
+761,august rush,7.5,91229,38.0
+762,chef,7.3,151970,68.0
+763,eye in the sky,7.3,57826,73.0
+764,eagle eye,6.6,156158,43.0
+765,the purge,5.7,154588,41.0
+766,pk,8.2,103279,51.0
+768,indiana jones and the kingdom of the crystal skull,6.2,351361,65.0
+769,paper towns,6.3,72515,56.0
+770,high-rise,5.7,25928,65.0
+771,quantum of solace,6.6,347798,58.0
+772,the assignment,4.5,2043,34.0
+773,how to train your dragon,8.1,523893,74.0
+774,lady in the water,5.6,82701,36.0
+775,the fountain,7.3,199193,51.0
+776,cars 2,6.2,110490,57.0
+777,31,5.1,10871,35.0
+778,final girl,4.7,9026,56.0
+781,unknown,6.9,218679,56.0
+782,self/less,6.5,67196,34.0
+783,mr. brooks,7.3,128146,45.0
+784,tramps,6.5,1031,77.0
+785,before we go,6.9,31370,31.0
+786,captain phillips,7.8,346154,83.0
+787,the secret scripture,6.8,378,37.0
+788,max steel,4.6,11555,22.0
+789,hotel transylvania 2,6.7,69157,44.0
+790,hancock,6.4,366138,49.0
+791,sisters,6.0,50241,58.0
+792,the family,6.3,92868,42.0
+793,zack and miri make a porno,6.6,154936,56.0
+794,ma vie de courgette,7.8,4370,85.0
+795,man on a ledge,6.6,129252,40.0
+796,no strings attached,6.2,178243,50.0
+797,rescue dawn,7.3,87887,77.0
+798,despicable me 2,7.4,304837,62.0
+799,a walk among the tombstones,6.5,93883,57.0
+800,the world's end,7.0,199813,81.0
+801,yoga hosers,4.3,7091,23.0
+802,seven psychopaths,7.2,196652,66.0
+803,beowulf,6.2,146566,59.0
+804,jack ryan: shadow recruit,6.2,103681,57.0
+805,1408,6.8,221073,64.0
+806,the gambler,6.0,52537,55.0
+807,prince of persia: the sands of time,6.6,233148,50.0
+808,the spectacular now,7.1,115751,82.0
+809,a united kingdom,6.8,4771,65.0
+810,uss indianapolis: men of courage,5.2,4964,30.0
+811,turbo kid,6.7,19309,60.0
+812,mama,6.2,142560,57.0
+813,orphan,7.0,153448,42.0
+814,to rome with love,6.3,72050,54.0
+815,fantastic mr. fox,7.8,149779,83.0
+816,inside man,7.6,285441,76.0
+817,i.t.,5.4,8755,27.0
+818,127 hours,7.6,294010,82.0
+819,annabelle,5.4,91106,37.0
+820,wolves at the door,4.6,564,63.0
+822,the imaginarium of doctor parnassus,6.8,130153,65.0
+823,g.i. joe: the rise of cobra,5.8,180105,32.0
+824,christine,7.0,5855,72.0
+825,man down,5.8,4779,27.0
+826,crawlspace,5.3,1427,25.0
+828,the warriors gate,5.3,1391,77.0
+830,disaster movie,1.9,77207,15.0
+831,rocky balboa,7.2,171356,63.0
+832,diary of a wimpy kid: dog days,6.4,16917,54.0
+833,jane eyre,7.4,67464,76.0
+834,fool's gold,5.7,62719,29.0
+835,the dictator,6.4,225394,58.0
+836,the loft,6.3,38804,24.0
+837,bacalaureat,7.5,5531,84.0
+838,you don't mess with the zohan,5.5,163144,54.0
+839,exposed,4.2,8409,23.0
+840,maudie,7.8,346,60.0
+841,horrible bosses 2,6.3,125190,40.0
+842,a bigger splash,6.4,15232,74.0
+843,melancholia,7.1,137117,80.0
+844,the princess and the frog,7.1,95480,73.0
+845,unstoppable,6.8,157499,69.0
+846,flight,7.3,276347,76.0
+847,home,6.7,77447,55.0
+848,la migliore offerta,7.8,77986,49.0
+849,mean dreams,6.3,1066,64.0
+850,42,7.5,69659,62.0
+851,21,6.8,198395,48.0
+852,begin again,7.4,111875,62.0
+853,out of the furnace,6.8,88829,63.0
+854,vicky cristina barcelona,7.1,208770,70.0
+855,kung fu panda,7.6,329788,73.0
+856,barbershop: the next cut,5.9,9993,67.0
+857,terminator salvation,6.6,297093,49.0
+858,freedom writers,7.5,55648,64.0
+859,the hills have eyes,6.4,136642,52.0
+860,changeling,7.8,206793,63.0
+861,remember me,7.2,119376,40.0
+862,koe no katachi,8.4,2421,80.0
+863,"alexander and the terrible, horrible, no good, very bad day",6.2,32310,54.0
+864,locke,7.1,100890,81.0
+865,the 9th life of louis drax,6.3,6175,41.0
+866,horns,6.5,61060,46.0
+867,indignation,6.9,7402,78.0
+868,the stanford prison experiment,6.9,20907,67.0
+869,diary of a wimpy kid: rodrick rules,6.6,20194,51.0
+870,mission: impossible iii,6.9,270429,66.0
+871,en man som heter ove,7.7,21569,70.0
+872,dragonball evolution,2.7,59512,45.0
+873,red dawn,5.4,64584,31.0
+874,one day,7.0,113599,48.0
+875,life as we know it,6.6,101301,39.0
+876,28 weeks later,7.0,221858,78.0
+877,warm bodies,6.9,193579,59.0
+878,blue jasmine,7.3,160592,78.0
+879,g.i. joe: retaliation,5.8,152145,41.0
+880,wrath of the titans,5.8,159230,37.0
+881,shin gojira,6.9,8365,68.0
+882,saving mr. banks,7.5,125693,65.0
+883,transcendence,6.3,184564,42.0
+884,rio,6.9,173919,63.0
+885,equals,6.1,16361,43.0
+886,babel,7.5,253417,69.0
+887,the tree of life,6.8,143517,85.0
+888,the lucky one,6.5,82874,39.0
+889,piranha 3d,5.5,75262,53.0
+890,50/50,7.7,281625,72.0
+891,the intent,3.5,202,59.0
+893,real steel,7.1,264480,56.0
+894,sex and the city,5.5,102547,53.0
+895,rambo,7.1,187077,46.0
+896,planet terror,7.1,174553,55.0
+898,the fall,7.9,93036,64.0
+899,the ugly truth,6.5,172558,28.0
+900,bride wars,5.5,83976,24.0
+901,sleeping with other people,6.5,27730,64.0
+902,snakes on a plane,5.6,118905,58.0
+903,what if,6.8,55243,59.0
+904,how to train your dragon 2,7.9,237565,76.0
+905,robocop,6.2,190833,52.0
+906,in dubious battle,6.2,1455,43.0
+907,"hello, my name is doris",6.7,12361,63.0
+908,ocean's thirteen,6.9,269581,62.0
+909,slither,6.5,64351,69.0
+910,contagion,6.6,187004,70.0
+911,il racconto dei racconti - tale of tales,6.4,17565,72.0
+912,i am the pretty thing that lives in the house,4.7,4204,68.0
+913,bridge to terabithia,7.2,117297,74.0
+914,coherence,7.2,66265,65.0
+915,notorious,6.7,33007,60.0
+916,goksung,7.5,17962,81.0
+917,the expendables 2,6.6,257395,51.0
+918,the girl next door,6.7,19351,29.0
+919,perfume: the story of a murderer,7.5,199387,56.0
+920,the golden compass,6.1,155078,51.0
+921,centurion,6.4,67801,62.0
+922,scouts guide to the zombie apocalypse,6.3,31651,32.0
+923,17 again,6.4,152808,48.0
+924,no escape,6.8,57921,38.0
+925,superman returns,6.1,246797,72.0
+926,the twilight saga: breaking dawn - part 1,4.9,190244,45.0
+927,precious,7.3,91623,79.0
+928,the sea of trees,5.9,7475,23.0
+929,good kids,6.1,3843,86.0
+931,footloose,5.9,39380,58.0
+932,if i stay,6.8,92170,46.0
+933,the ticket,5.4,924,52.0
+934,detour,6.3,2205,46.0
+935,the love witch,6.2,4669,82.0
+936,talladega nights: the ballad of ricky bobby,6.6,137502,66.0
+937,the human centipede (first sequence),4.4,60655,33.0
+938,super,6.8,64535,50.0
+939,the siege of jadotville,7.3,14689,83.0
+941,the midnight meat train,6.1,50255,58.0
+942,the twilight saga: eclipse,4.9,192740,58.0
+943,transpecos,5.8,1292,73.0
+944,what's your number?,6.1,62095,35.0
+945,riddick,6.4,132098,49.0
+946,triangle,6.9,72533,66.0
+948,king cobra,5.6,3990,48.0
+949,after earth,4.9,166512,33.0
+950,kicks,6.1,2417,69.0
+951,me and earl and the dying girl,7.8,92076,74.0
+952,the descendants,7.3,211348,84.0
+953,sex and the city 2,4.3,62403,27.0
+954,the kings of summer,7.2,65653,61.0
+955,death race,6.4,173731,43.0
+956,that awkward moment,6.2,81823,36.0
+957,legion,5.2,84158,32.0
+958,end of watch,7.7,192190,68.0
+959,3 days to kill,6.2,73567,40.0
+960,lucky number slevin,7.8,271940,53.0
+961,trance,7.0,97141,61.0
+962,into the forest,5.9,10220,59.0
+963,the other boleyn girl,6.7,88260,50.0
+964,i spit on your grave,6.3,60133,27.0
+965,custody,6.9,280,72.0
+967,l'odyssée,6.7,1810,70.0
+969,wrecker,3.5,1210,37.0
+971,texas chainsaw 3d,4.8,37060,62.0
+973,rock of ages,5.9,64513,47.0
+974,scream 4,6.2,108544,52.0
+975,queen of katwe,7.4,6753,73.0
+976,my big fat greek wedding 2,6.0,20966,37.0
+977,dark places,6.2,31634,39.0
+978,amateur night,5.0,2229,38.0
+979,it's only the end of the world,7.0,10658,48.0
+980,the skin i live in,7.6,108772,70.0
+981,miracles from heaven,7.0,12048,44.0
+982,annie,5.3,27312,33.0
+983,across the universe,7.4,95172,56.0
+984,let's be cops,6.5,112729,30.0
+985,max,6.8,21405,47.0
+986,your highness,5.6,87904,31.0
+987,final destination 5,5.9,88000,50.0
+988,endless love,6.3,33688,30.0
+989,martyrs,7.1,63785,89.0
+991,underworld: rise of the lycans,6.6,129708,44.0
+992,taare zameen par,8.5,102697,42.0
+994,resident evil: afterlife,5.9,140900,37.0
+995,project x,6.7,164088,48.0
+996,secret in their eyes,6.2,27585,45.0
+997,hostel: part ii,5.5,73152,46.0
+998,step up 2: the streets,6.2,70699,50.0
+999,search party,5.6,4881,22.0
+1000,nine lives,5.3,12435,11.0
