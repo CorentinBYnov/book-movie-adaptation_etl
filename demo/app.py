@@ -54,6 +54,19 @@ with info_tab:
         f"Le film surpasse le livre dans {((ratings_df.book_rating * 2 < ratings_df.movie_rating).sum() * 100 / len(ratings_df)):.2f}% des cas."
     )
 
+    st.subheader("Retour sur investissement")
+    st.write(f"ROI moyen : {finance_df.roi.mean().round(2)}")
+    st.write(f"ROI max : {finance_df.roi.max().round(2)}")
+    st.write(f"ROI min : {finance_df.roi.min().round(2)}")
+
+    st.subheader("Rentabilité")
+    st.write(
+        f"L'adaptations est rentable dans {((finance_df.profit > 0).sum() * 100 / len(finance_df)):.2f}% des cas."
+    )
+    st.write(
+        f"L'adaptations représente une perte dans {((finance_df.profit < 0).sum() * 100 / len(finance_df)):.2f}% des cas."
+    )
+
 with rating_tab:
     st.write(ratings_df)
 
@@ -86,7 +99,6 @@ with rating_tab:
 
     st.pyplot(fig)
 
-
     st.subheader("Corrélation entre les notes")
 
     corr_pearson = (ratings_df["book_rating"] * 2).corr(ratings_df["movie_rating"])
@@ -117,11 +129,8 @@ with rating_tab:
 
     st.write(f"**Coefficient de corrélation de Pearson :** {corr_pearson:.2f}")
 
-
     ratings_df["book_rating_10"] = ratings_df.book_rating * 2
-    ratings_df["difference"] = (
-        ratings_df.movie_rating - ratings_df.book_rating_10
-    )
+    ratings_df["difference"] = ratings_df.movie_rating - ratings_df.book_rating_10
     ratings_df["abs_difference"] = ratings_df.difference.abs()
 
     most_faithful = ratings_df.nsmallest(3, "abs_difference")
@@ -165,7 +174,9 @@ with finance_tab:
     corr_livre_recettes = ratings_df.book_rating.corr(finance_df.profit)
     corr_film_recettes = ratings_df.movie_rating.corr(finance_df.profit)
 
-    st.write(f"Corrélation [Note du Livre ➔ Profit du Film] : {corr_livre_recettes:.2f}")
+    st.write(
+        f"Corrélation [Note du Livre ➔ Profit du Film] : {corr_livre_recettes:.2f}"
+    )
     st.write(f"Corrélation [Note du Film  ➔ Profit du Film] : {corr_film_recettes:.2f}")
 
     st.subheader("Impact de la popularité du livre sur le profit du film")
@@ -202,7 +213,6 @@ with finance_tab:
 
     st.pyplot(fig)
 
-
     st.subheader("Rapport entre le profit, la note du film et la popularité du livre")
 
     finance_plot_df = finance_df.copy()
@@ -216,7 +226,7 @@ with finance_tab:
         finance_plot_df["movie_rating"],
         c=finance_plot_df["book_rating"] * 2,
         cmap="viridis",
-        s=finance_plot_df["profit"].abs() * .000001,
+        s=finance_plot_df["profit"].abs() * 0.000001,
         alpha=0.8,
         edgecolors="white",
         linewidth=0.5,
@@ -237,20 +247,15 @@ with finance_tab:
 
     st.pyplot(fig)
 
-
     most_profitable = finance_df.nlargest(3, "profit")
     least_profitable = finance_df.nsmallest(3, "profit")
 
     st.subheader("Les 3 adaptations les plus rentables")
     st.dataframe(
-        most_profitable[
-            ["title", "year", "director", "budget", "profit", "roi"]
-        ]
+        most_profitable[["title", "year", "director", "budget", "profit", "roi"]]
     )
 
     st.subheader("Les 3 adaptations les moins rentables")
     st.dataframe(
-        least_profitable[
-            ["title", "year", "director", "budget", "profit", "roi"]
-        ]
+        least_profitable[["title", "year", "director", "budget", "profit", "roi"]]
     )
