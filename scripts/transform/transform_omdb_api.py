@@ -13,15 +13,15 @@ RAW_PATH = os.path.join(BASE_DIR, "data", "raw", "omdb_raw.json")
 PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 PROCESSED_PATH = os.path.join(PROCESSED_DIR, "omdb_clean.csv")
 
-print(f"📁 Racine du projet détectée : {BASE_DIR}")
-print(f"🔍 Recherche du fichier brut dans : {RAW_PATH}")
+print(f"Racine du projet détectée : {BASE_DIR}")
+print(f"Recherche du fichier brut dans : {RAW_PATH}")
 
 
 try:
     df_raw = pd.read_json(RAW_PATH)
     print(f"   -> Succès : {df_raw.shape[0]} lignes chargées depuis {RAW_PATH}")
 except FileNotFoundError:
-    raise FileNotFoundError(f"❌ Impossible de trouver le fichier brut à l'emplacement : {RAW_PATH}")
+    raise FileNotFoundError(f"Impossible de trouver le fichier brut à l'emplacement : {RAW_PATH}")
 
 def transform_omdb_pipeline(df):
     df_out = df.copy()
@@ -64,12 +64,28 @@ def transform_omdb_pipeline(df):
 
     # --- Sélection et ordonnancement des colonnes cibles ---
     target_columns = [
-        'Title', 'Year', 'Metascore', 'imdbRating', 
-        'imdbVotes', 'Type', 'totalSeasons', 'BoxOffice'
+        'Title', 'Year', 'Director', 'imdbRating', 'imdbVotes', 
+        'Metascore', 'Type', 'totalSeasons', 'BoxOffice'
     ]
     existing_targets = [col for col in target_columns if col in df_out.columns]
+
+    # --- Modification des noms de colonnes pour la cohérence avec les précédentes données de imdb ---
+    rename_mapping = {
+        'Title': 'title',
+        'Year': 'year',
+        'Director': 'director',
+        'imdbRating': 'rating',
+        'imdbVotes': 'votes',
+        'Metascore': 'metascore',
+        'Type': 'type',
+        'totalSeasons': 'total_seasons',
+        'BoxOffice': 'gross'
+    }
+
+    # On sélectionne AVANT de renommer, pour garder les bons noms de colonnes
+    df_out = df_out[existing_targets].rename(columns=rename_mapping)
     
-    return df_out[existing_targets]
+    return df_out
 
 df_omdb_clean = transform_omdb_pipeline(df_raw)
 
@@ -79,4 +95,4 @@ os.makedirs(PROCESSED_DIR, exist_ok=True)
 # Sauvegarde en CSV
 df_omdb_clean.to_csv(PROCESSED_PATH, index=False, encoding='utf-8')
 print(f"   -> Succès : Données sauvegardées dans '{PROCESSED_PATH}'")
-print(f"🏁 Pipeline ETL terminé ! Dataset final : {df_omdb_clean.shape[0]} lignes et {df_omdb_clean.shape[1]} colonnes.")
+print(f"Pipeline ETL terminé ! Dataset final : {df_omdb_clean.shape[0]} lignes et {df_omdb_clean.shape[1]} colonnes.")
