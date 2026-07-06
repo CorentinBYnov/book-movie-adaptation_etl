@@ -24,19 +24,24 @@ def main():
         CREATE TABLE movies (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT NOT NULL,
+            year INTEGER NOT NULL,
+            director TEXT NOT NULL,
             rating REAL,
             votes INTEGER,
-            "revenue (millions)" REAL,
-            metascore REAL
+            metascore REAL,
+            budget REAL,
+            gross REAL,
+            profit REAL,
+            roi REAL
         );
     """)
 
     cur.execute("""
         CREATE TABLE book_movie_adaptations (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
             book_id INTEGER NOT NULL,
             movie_id INTEGER NOT NULL,
-            FOREIGN KEY (book_id) REFERENCES books(isbn),
+            PRIMARY KEY (book_id, movie_id),
+            FOREIGN KEY (book_id) REFERENCES books(id),
             FOREIGN KEY (movie_id) REFERENCES movies(id)
         );
     """)

@@ -2,7 +2,7 @@ import pandas as pd
 
 
 df = pd.read_csv("data/raw/imdb_movie_dataset.csv")
-keep = ["Rank", "Title", "Rating", "Votes", "Revenue (Millions)", "Metascore"]
+keep = ["Title", "Year", "Director", "Rating", "Votes", "Metascore"]
 
 
 def pipe(df, functions):
@@ -24,7 +24,7 @@ def lower(df):
 
 
 def change_column_names(df):
-    return df.rename(columns=str.lower).rename(columns={"rank": "id"})
+    return df.rename(columns=str.lower)
 
 
 def export(df, path):
@@ -36,7 +36,7 @@ functions = (lambda x: select_columns(x, keep), clean_na, lower, change_column_n
 
 def main():
     clean_df = pipe(df, functions)
-    export(clean_df, "data/processed/movies_clean.csv")
+    export(clean_df, "data/intermediate/movies_intermediate.csv")
 
 
 if __name__ == "__main__":
