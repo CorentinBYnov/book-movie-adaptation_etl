@@ -13,7 +13,7 @@ df_movies_finance = pd.merge(
     how="left",
 )
 
-df_movies_finance_final = df_movies_finance.drop("name", axis=1)
+df_movies_finance_final = df_movies_finance.drop("name", axis=1).reset_index().rename(columns={"index": "id"})
 
 
 def main():
