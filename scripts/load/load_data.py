@@ -6,6 +6,7 @@ df_books = pd.read_csv("data/processed/books_clean.csv")
 df_movies = pd.read_csv("data/processed/movies_full.csv")
 df_book_movie_adaptations = pd.read_csv("data/processed/join_books_movies.csv")
 df_series = pd.read_csv("data/processed/series_clean.csv")
+df_book_series_adaptations = pd.read_csv("data/processed/join_books_series.csv")
 
 
 def main():
@@ -58,12 +59,25 @@ def main():
         );
     """)
 
+    cur.execute("""
+        CREATE TABLE book_series_adaptations (
+            book_id INTEGER NOT NULL,
+            series_id INTEGER NOT NULL,
+            PRIMARY KEY (book_id, series_id),
+            FOREIGN KEY (book_id) REFERENCES books(id),
+            FOREIGN KEY (series_id) REFERENCES series(id)
+        );
+    """)
+
     df_books.to_sql("books", con, if_exists="append", index=False)
     df_movies.to_sql("movies", con, if_exists="append", index=False)
     df_book_movie_adaptations.to_sql(
         "book_movie_adaptations", con, if_exists="append", index=False
     )
     df_series.to_sql("series", con, if_exists="append", index=False)
+    df_book_series_adaptations.to_sql(
+        "book_series_adaptations", con, if_exists="append", index=False
+    )
 
     con.close()
 

@@ -56,6 +56,10 @@ def transform_omdb_pipeline(df):
         df_out['Title'] = df_out['Title'].astype(str).str.lower().str.strip()
         df_out['Title'] = df_out['Title'].str.replace(r'[^\w\s]', ' ', regex=True).str.replace(r'\s+', ' ', regex=True).str.strip()
 
+        # Le champ 'Director' devient le titre nettoyé (minuscules, strip, sans ponctuation)
+        df_out['Director'] = df_out['Director'].astype(str).str.lower().str.strip()
+        df_out['Director'] = df_out['Director'].str.replace(r'[^\w\s]', ' ', regex=True).str.replace(r'\s+', ' ', regex=True).str.strip()
+
     # --- Filtrage ciblé sur le Box-Office ---
     # Règle : Si c'est un film ('movie'), le Box-Office est obligatoire. Si c'est une série, pas touche.
     initial_count = len(df_out)

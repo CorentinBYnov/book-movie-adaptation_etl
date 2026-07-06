@@ -21,6 +21,7 @@ TRANSFORM_STEPS = [
     "scripts/transform/transform_movie_finance.py",
     "scripts/transform/transform_merge_movie_finance.py",   # -> movies_full.csv (complet)
     "scripts/transform/transform_join_books_movies.py",      # -> join_books_movies.csv
+    "scripts/transform/transform_join_books_series.py",      # -> join_books_series.csv
 ]
 
 LOAD_STEPS = [

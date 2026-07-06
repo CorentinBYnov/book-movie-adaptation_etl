@@ -10,10 +10,9 @@ RAW_COLUMN_MAPPING = {
     "Metascore": "metascore",
 }
 
-
 def transform_omdb_for_load(df_omdb, df_movies_existing):
     """
-    Sépare omdb en films/séries, et dédoublonne les films contre les films
+    Sépare omdb en films/séries, et dédoublonne les films ajoutés contre les films
     déjà connus (df_movies_existing, déjà renommé au format cible).
     """
     df = df_omdb.copy()
@@ -25,7 +24,16 @@ def transform_omdb_for_load(df_omdb, df_movies_existing):
     df_movies_ready = df_movies_ready[movies_columns]
 
     # --- Dédoublication ---
-    existing_keys = set(zip(df_movies_existing['title'], df_movies_existing['year']))
+
+    # Force le type numérique de year côté omdb (actuellement en string)
+    df_movies_ready['year'] = pd.to_numeric(df_movies_ready['year'], errors='coerce').astype('Int64')
+
+    existing_keys = set(
+        zip(
+            df_movies_existing['title'].str.lower().str.strip(),
+            df_movies_existing['year'],
+        )
+    )
     before = len(df_movies_ready)
     mask_duplicate = df_movies_ready.apply(
         lambda row: (row['title'], row['year']) in existing_keys, axis=1
