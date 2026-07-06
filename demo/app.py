@@ -42,8 +42,6 @@ st.title("Le Succès des Adaptations de Livres en Films")
 info_tab, rating_tab, finance_tab = st.tabs(["Informations", "Notes", "Finances"])
 
 with info_tab:
-    st.write(ratings_df)
-
     st.subheader("Moyenne des notes")
     st.write(f"Livres : {ratings_df['book_rating'].mean().round(2)}/5")
     st.write(f"Films  : {ratings_df['movie_rating'].mean().round(2)}/10")
@@ -57,6 +55,8 @@ with info_tab:
     )
 
 with rating_tab:
+    st.write(ratings_df)
+
     st.subheader("Graphique des notes")
 
     plot_df = pd.DataFrame(
@@ -236,3 +236,21 @@ with finance_tab:
     cbar.set_label("Note moyenne du livre (sur 10)")
 
     st.pyplot(fig)
+
+
+    most_profitable = finance_df.nlargest(3, "profit")
+    least_profitable = finance_df.nsmallest(3, "profit")
+
+    st.subheader("Les 3 adaptations les plus rentables")
+    st.dataframe(
+        most_profitable[
+            ["title", "year", "director", "budget", "profit", "roi"]
+        ]
+    )
+
+    st.subheader("Les 3 adaptations les moins rentables")
+    st.dataframe(
+        least_profitable[
+            ["title", "year", "director", "budget", "profit", "roi"]
+        ]
+    )
