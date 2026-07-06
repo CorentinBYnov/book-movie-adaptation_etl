@@ -102,3 +102,44 @@ with rating_tab:
     st.pyplot(fig)
 
     st.write(f"**Coefficient de corrélation de Pearson :** {corr_pearson:.2f}")
+
+
+    ratings_df["book_rating_10"] = ratings_df.book_rating * 2
+    ratings_df["difference"] = (
+        ratings_df.movie_rating - ratings_df.book_rating_10
+    )
+    ratings_df["abs_difference"] = ratings_df.difference.abs()
+
+    most_faithful = ratings_df.nsmallest(3, "abs_difference")
+    least_faithful = ratings_df.nlargest(3, "abs_difference")
+
+    biggest_improvements = ratings_df.nlargest(3, "difference")
+    biggest_disappointments = ratings_df.nsmallest(3, "difference")
+
+    st.subheader("Les 3 adaptations aux notes les plus fidèles")
+    st.dataframe(
+        most_faithful[
+            ["title", "year", "director", "book_rating", "movie_rating", "difference"]
+        ]
+    )
+
+    st.subheader("Les 3 adaptations aux notes les moins fidèles")
+    st.dataframe(
+        least_faithful[
+            ["title", "year", "director", "book_rating", "movie_rating", "difference"]
+        ]
+    )
+
+    st.subheader("Les 3 adaptations qui ont le plus surpris")
+    st.dataframe(
+        biggest_improvements[
+            ["title", "year", "director", "book_rating", "movie_rating", "difference"]
+        ]
+    )
+
+    st.subheader("Les 3 adaptations qui ont le plus déçu")
+    st.dataframe(
+        biggest_disappointments[
+            ["title", "year", "director", "book_rating", "movie_rating", "difference"]
+        ]
+    )
