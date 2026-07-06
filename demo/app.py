@@ -53,7 +53,6 @@ with rating_tab:
         }
     )
 
-    # Create figure
     fig, ax = plt.subplots(figsize=(6, 5))
     sns.boxplot(
         data=plot_df,
@@ -72,3 +71,34 @@ with rating_tab:
     ax.set_axisbelow(True)
 
     st.pyplot(fig)
+
+
+    st.subheader("Corrélation entre les notes")
+
+    corr_pearson = (ratings_df["book_rating"] * 2).corr(ratings_df["movie_rating"])
+
+    fig, ax = plt.subplots(figsize=(9, 6))
+
+    sns.regplot(
+        data=ratings_df,
+        x=ratings_df["book_rating"] * 2,
+        y="movie_rating",
+        color="#4a148c",
+        scatter_kws={"alpha": 0.6, "s": 70},
+        line_kws={
+            "color": "#ff6f00",
+            "lw": 2,
+            "label": f"Tendance (r = {corr_pearson:.2f})",
+        },
+        ax=ax,
+    )
+
+    ax.set_title("L'évaluation d'un livre influence-t-elle celle de son film ?")
+    ax.set_xlabel("Note moyenne du livre (sur 10)")
+    ax.set_ylabel("Note moyenne du film (sur 10)")
+    ax.grid(True, linestyle="--", alpha=0.5)
+    ax.legend(loc="upper left")
+
+    st.pyplot(fig)
+
+    st.write(f"**Coefficient de corrélation de Pearson :** {corr_pearson:.2f}")
