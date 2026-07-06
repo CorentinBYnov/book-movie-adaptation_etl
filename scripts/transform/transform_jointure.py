@@ -4,7 +4,7 @@ import pandas as pd
 def load_intermediate_data():
     """Charge les deux datasets nettoyés depuis le dossier intermediaire."""
     BOOKS_PATH = os.path.join("data", "processed", "books_clean.csv")
-    MOVIES_PATH = os.path.join("data", "processed", "movies_clean.csv")
+    MOVIES_PATH = os.path.join("data", "processed", "movies_full.csv")
     
     if not os.path.exists(BOOKS_PATH) or not os.path.exists(MOVIES_PATH):
         raise FileNotFoundError(

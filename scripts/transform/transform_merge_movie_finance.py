@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df_movies = pd.read_csv("data/intermediate/movies_intermediate.csv")
+df_movies = pd.read_csv("data/intermediate/movies_full_intermediate.csv")
 df_finance = pd.read_csv("data/intermediate/movie_finance_intermediate.csv")
 
 
@@ -17,7 +17,7 @@ df_movies_finance_final = df_movies_finance.drop("name", axis=1).reset_index().r
 
 
 def main():
-    df_movies_finance_final.to_csv("data/processed/movies_clean.csv", index=False)
+    df_movies_finance_final.to_csv("data/processed/movies_full.csv", index=False)
 
 
 if __name__ == "__main__":
