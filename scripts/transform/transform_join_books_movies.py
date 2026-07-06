@@ -2,7 +2,7 @@ import pandas as pd
 
 
 df_books = pd.read_csv("data/processed/books_clean.csv")
-df_movies = pd.read_csv("data/processed/movies_clean.csv")
+df_movies = pd.read_csv("data/processed/movies_full.csv")
 
 df_books_subset = df_books[["title", "id"]].rename(columns={"id": "book_id"})
 df_movies_subset = df_movies[["title", "id"]].rename(columns={"id": "movie_id"})

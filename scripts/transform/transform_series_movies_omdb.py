@@ -1,41 +1,46 @@
 import pandas as pd
-import numpy as np
+
+# Alignement des noms de colonnes du CSV brut sur le schéma cible
+RAW_COLUMN_MAPPING = {
+    "Title": "title",
+    "Year": "year",
+    "Director": "director",
+    "Rating": "rating",
+    "Votes": "votes",
+    "Metascore": "metascore",
+}
 
 
-def transform_omdb_for_load(df_omdb):
+def transform_omdb_for_load(df_omdb, df_movies_existing):
     """
-    Sépare et transforme le dataframe omdb en deux jeux de données prêts au chargement :
-    - un dataframe 'movies' aligné sur le schéma de la table movies (fusionnable avec movies_clean.csv)
-    - un dataframe 'series' aligné sur le schéma de la table series
-
-    Retourne un tuple (df_movies_ready, df_series_ready)
+    Sépare omdb en films/séries, et dédoublonne les films contre les films
+    déjà connus (df_movies_existing, déjà renommé au format cible).
     """
     df = df_omdb.copy()
 
     # --- Partie films ---
+
     df_movies_ready = df[df['type'] == 'movie'].copy()
-
-    # Colonnes absentes dans omdb mais requises par le schéma movies -> valeurs par défaut
-    df_movies_ready['budget'] = np.nan
-    df_movies_ready['profit'] = np.nan
-    df_movies_ready['roi'] = np.nan
-
-    movies_columns = [
-        'title', 'year', 'director', 'rating',
-        'votes', 'metascore', 'budget', 'gross', 'profit', 'roi'
-    ]
+    movies_columns = ['title', 'year', 'director', 'rating', 'votes', 'metascore']
     df_movies_ready = df_movies_ready[movies_columns]
 
+    # --- Dédoublication ---
+    existing_keys = set(zip(df_movies_existing['title'], df_movies_existing['year']))
+    before = len(df_movies_ready)
+    mask_duplicate = df_movies_ready.apply(
+        lambda row: (row['title'], row['year']) in existing_keys, axis=1
+    )
+    duplicates = df_movies_ready[mask_duplicate]
+    df_movies_ready = df_movies_ready[~mask_duplicate]
+
+    print(f"   -> {before - len(df_movies_ready)} doublons retirés côté omdb (déjà présents dans movies).")
+    if len(duplicates) > 0:
+        print(duplicates[['title', 'year']].to_string(index=False))
+
     # --- Partie séries ---
-    df_series_ready = df[df['type'] == 'series'].copy()
+    df_series_ready = df[df['type'] == 'series'][['title', 'year', 'rating', 'votes', 'total_seasons']]
 
-    series_columns = [
-        'title', 'year', 'rating', 'votes',
-        'metascore', 'total_seasons'
-    ]
-    df_series_ready = df_series_ready[series_columns]
-
-    print(f"   -> Transform omdb : {len(df_movies_ready)} films et {len(df_series_ready)} séries préparés pour le load.")
+    print(f"   -> Transform omdb : {len(df_movies_ready)} films et {len(df_series_ready)} séries préparés.")
 
     return df_movies_ready, df_series_ready
 
@@ -43,14 +48,16 @@ def transform_omdb_for_load(df_omdb):
 def main():
     df_omdb = pd.read_csv("data/processed/omdb_clean.csv")
 
-    df_movies_ready, df_series_ready = transform_omdb_for_load(df_omdb)
+    df_movies_raw = pd.read_csv("data/intermediate/movies_intermediate.csv")
+    df_movies_raw = df_movies_raw.rename(columns=RAW_COLUMN_MAPPING)
+    df_movies_raw = df_movies_raw[["title", "year", "director", "rating", "votes", "metascore"]]
 
-    # --- Fusion avec les films existants (avant 2016) ---
-    df_movies = pd.read_csv("data/processed/movies_clean.csv")
-    df_movies_full = pd.concat([df_movies, df_movies_ready], ignore_index=True)
+    df_movies_ready, df_series_ready = transform_omdb_for_load(df_omdb, df_movies_raw)
 
-    # --- Sauvegarde des jeux de données prêts à charger ---
-    df_movies_full.to_csv("data/processed/movies_full.csv", index=False)
+    df_movies_full_intermediate = pd.concat([df_movies_raw, df_movies_ready], ignore_index=True)
+
+    # Fichier intermédiaire (pas encore "clean" : sans données financières)
+    df_movies_full_intermediate.to_csv("data/intermediate/movies_full_intermediate.csv", index=False)
     df_series_ready.to_csv("data/processed/series_clean.csv", index=False)
 
 
