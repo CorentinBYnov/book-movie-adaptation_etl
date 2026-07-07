@@ -13,7 +13,7 @@ def get_ratings():
     con = sqlite3.connect("database/cinema.db")
     df = pd.read_sql_query(
         """
-        SELECT movies.title, movies.year, movies.director, books.rating_average AS book_rating, movies.rating AS movie_rating
+        SELECT movies.title, movies.year, movies.director, books.rating_average AS book_rating, movies.votes AS movie_votes, movies.rating AS movie_rating
         FROM books
         JOIN book_movie_adaptations ON books.id = book_movie_adaptations.book_id
         JOIN movies ON book_movie_adaptations.movie_id = movies.id;

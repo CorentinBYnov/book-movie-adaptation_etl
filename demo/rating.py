@@ -5,7 +5,7 @@ import streamlit as st
 
 
 def _show_raw_data(ratings_df):
-    st.write(ratings_df)
+    st.write(ratings_df.drop("movie_votes", axis=1))
 
 
 def _plot_rating_distribution(ratings_df):

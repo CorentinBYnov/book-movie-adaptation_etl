@@ -52,13 +52,14 @@ def _plot_profit_rating_scatter(ratings_df, finance_df):
     plot_df = finance_df.copy()
     plot_df["book_rating"] = ratings_df["book_rating"]
     plot_df["movie_rating"] = ratings_df["movie_rating"]
+    plot_df["movie_votes"] = ratings_df["movie_votes"]
     fig, ax = plt.subplots(figsize=(10, 6))
     scatter = ax.scatter(
         plot_df["profit"],
         plot_df["movie_rating"],
         c=plot_df["book_rating"] * 2,
         cmap="viridis",
-        s=plot_df["profit"].abs() * 0.000001,
+        s=plot_df["movie_votes"] * .0005,
         alpha=0.8,
         edgecolors="white",
         linewidth=0.5,
@@ -75,6 +76,8 @@ def _plot_profit_rating_scatter(ratings_df, finance_df):
     cbar = fig.colorbar(scatter, ax=ax)
     cbar.set_label("Note moyenne du livre (sur 10)")
     st.pyplot(fig)
+
+    st.write("Taille = nombre de votes")
 
 
 def _show_profit_extremes(finance_df):
