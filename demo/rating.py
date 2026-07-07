@@ -24,6 +24,8 @@ def _plot_rating_distribution(ratings_df):
         y="Note",
         ax=ax,
         palette=["#1b5e20", "#b71c1c"],
+        hue="Type",
+        legend=False,
         width=0.4,
         linewidth=2,
     )
