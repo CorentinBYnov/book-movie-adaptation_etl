@@ -133,3 +133,18 @@ uv sync
 python main.py                          # transform + load uniquement
 python main.py --with-extract           # pipeline complet
 ```
+
+## Démo
+
+Une application Streamlit de démonstration des résultats est située dans le dossier `demo/`.  
+Elle est séparée en quatre fichiers :
++ `app.py` est le fichier principal de cette démo
++ `info.py` contient des informations diverses
++ `rating.py` contient l'analyse des notes
++ `finance.py` contient l'analyse financière
+
+Pour lancer l'application :
+
+```bash
+streamlit run demo/app.py
+```
