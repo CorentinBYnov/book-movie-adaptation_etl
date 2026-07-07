@@ -1,11 +1,12 @@
 import sqlite3
 
-import pandas as pd
-import streamlit as st
+import pandas as pd # type: ignore
+import streamlit as st # type: ignore
 
 from finance import show_finance
 from info import show_info
 from rating import show_rating
+from trends import show_trends
 
 st.set_page_config(
     page_title="Adaptations Livre → Film",
@@ -51,18 +52,16 @@ finance_df = get_finance()
 
 st.title("🎬 Le Succès des Adaptations de Livres en Films")
 
-# --- Sidebar : filtres globaux ---
 with st.sidebar:
     st.header("Filtres")
 
     year_min, year_max = int(ratings_df.year.min()), int(ratings_df.year.max())
     year_range = st.slider("Année de sortie", year_min, year_max, (year_min, year_max))
 
-    search = st.text_input("🔍 Rechercher un titre", placeholder="ex: Dune, Narnia...")
+    search = st.text_input("🔍 Rechercher un titre", placeholder="ex: Harry Potter, Vampire Academy ...")
 
     st.caption(f"{len(ratings_df)} adaptations au total dans la base.")
 
-# Application des filtres
 ratings_df = ratings_df[ratings_df.year.between(*year_range)]
 finance_df = finance_df[finance_df.year.between(*year_range)]
 
@@ -74,7 +73,9 @@ if ratings_df.empty:
     st.warning("Aucune adaptation ne correspond aux filtres sélectionnés.")
     st.stop()
 
-info_tab, rating_tab, finance_tab = st.tabs(["📋 Informations", "⭐ Notes", "💰 Finances"])
+info_tab, rating_tab, finance_tab, trends_tab = st.tabs(
+    ["📋 Informations", "⭐ Notes", "💰 Finances", "📈 Tendances"]
+)
 
 with info_tab:
     show_info(ratings_df, finance_df)
@@ -84,3 +85,6 @@ with rating_tab:
 
 with finance_tab:
     show_finance(finance_df)
+
+with trends_tab:
+    show_trends(ratings_df, finance_df)

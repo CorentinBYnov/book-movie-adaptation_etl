@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-import streamlit as st
+import matplotlib.pyplot as plt # type: ignore
+import pandas as pd # type: ignore
+import seaborn as sns # type: ignore
+import streamlit as st # type: ignore
 
 
 def _show_raw_data(ratings_df):
