@@ -63,23 +63,28 @@ def _plot_correlation(ratings_df):
 
 
 def _show_extremes(ratings_df):
+    ratings_df = ratings_df.copy()
     ratings_df["book_rating_10"] = ratings_df.book_rating * 2
     ratings_df["difference"] = ratings_df.movie_rating - ratings_df.book_rating_10
     ratings_df["abs_difference"] = ratings_df.difference.abs()
 
     cols = ["title", "year", "director", "book_rating", "movie_rating", "difference"]
 
-    st.subheader("Les 3 adaptations aux notes les plus fidèles")
-    st.dataframe(ratings_df.nsmallest(3, "abs_difference")[cols])
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("🎯 Notes les plus fidèles")
+        st.dataframe(ratings_df.nsmallest(3, "abs_difference")[cols], hide_index=True)
+    with col2:
+        st.subheader("↔️ Notes les moins fidèles")
+        st.dataframe(ratings_df.nlargest(3, "abs_difference")[cols], hide_index=True)
 
-    st.subheader("Les 3 adaptations aux notes les moins fidèles")
-    st.dataframe(ratings_df.nlargest(3, "abs_difference")[cols])
-
-    st.subheader("Les 3 adaptations qui ont le plus surpris")
-    st.dataframe(ratings_df.nlargest(3, "difference")[cols])
-
-    st.subheader("Les 3 adaptations qui ont le plus déçu")
-    st.dataframe(ratings_df.nsmallest(3, "difference")[cols])
+    col3, col4 = st.columns(2)
+    with col3:
+        st.subheader("😲 Les plus surprenantes")
+        st.dataframe(ratings_df.nlargest(3, "difference")[cols], hide_index=True)
+    with col4:
+        st.subheader("😞 Les plus décevantes")
+        st.dataframe(ratings_df.nsmallest(3, "difference")[cols], hide_index=True)
 
 
 def show_rating(ratings_df):

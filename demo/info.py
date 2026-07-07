@@ -3,8 +3,9 @@ import streamlit as st
 
 def _show_mean_ratings(ratings_df):
     st.subheader("Moyenne des notes")
-    st.write(f"Livres : {ratings_df['book_rating'].mean():.2f}/5")
-    st.write(f"Films  : {ratings_df['movie_rating'].mean():.2f}/10")
+    col1, col2 = st.columns(2)
+    col1.metric("Livres", f"{ratings_df['book_rating'].mean():.2f}/5")
+    col2.metric("Films", f"{ratings_df['movie_rating'].mean():.2f}/10")
 
 
 def _show_rating_comparison(ratings_df):
@@ -22,9 +23,10 @@ def _show_rating_comparison(ratings_df):
 
 def _show_roi_stats(finance_df):
     st.subheader("Retour sur investissement")
-    st.write(f"ROI moyen : {finance_df.roi.mean():.2f}")
-    st.write(f"ROI max : {finance_df.roi.max():.2f}")
-    st.write(f"ROI min : {finance_df.roi.min():.2f}")
+    col1, col2, col3 = st.columns(3)
+    col1.metric("ROI moyen", f"{finance_df.roi.mean():.2f}%")
+    col2.metric("ROI max", f"{finance_df.roi.max():.2f}%")
+    col3.metric("ROI min", f"{finance_df.roi.min():.2f}%")
 
 
 def _show_profitability(finance_df):
